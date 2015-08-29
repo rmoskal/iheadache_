@@ -1,0 +1,2 @@
+<p>A new user signed up at $dateTool.getDate() </p>
+<p> $user </p>

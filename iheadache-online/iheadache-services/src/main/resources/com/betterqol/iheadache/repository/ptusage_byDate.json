@@ -1,0 +1,8 @@
+{
+"map":
+"function(doc) {
+  if(doc.treatmentDescription) { 
+  emit([doc.user,Number(doc.start)], doc);
+}
+}"
+}

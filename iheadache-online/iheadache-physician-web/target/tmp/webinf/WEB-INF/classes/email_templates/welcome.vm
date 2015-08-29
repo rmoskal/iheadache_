@@ -1,0 +1,373 @@
+			<table width="650" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="right">
+						<table border="0" cellspacing="0" cellpadding="0" bgcolor="#e2e2e2">
+							<tr>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="20"><div style="font-size:0pt; line-height:0pt; height:24px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="24" style="height:24px" alt="" /></div>
+</td>
+								<td class="top" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:14px; text-align:left; color:#5f5959">Having trouble viewing this e-mail? <a class="link-top" style="text-decoration:underline; color:#2569db" target="_blank" href="${siteUrl}welcome-email?id=$user.id"><span class="link-top" style="text-decoration:underline; color:#2569db">View it in your browser</span></a></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="15" height="126" class="img" style="font-size:0pt; line-height:0pt; text-align:left"></td>
+								<td>
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="http://www.iheadache.com/emails/images/logo.png" width="429" height="78" alt="iHeadache " border="0" /></a></td>
+										</tr>
+										<tr>
+											<td>
+												<div style="font-size:0pt; line-height:0pt; height:10px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="10" style="height:10px" alt="" /></div>
+
+												<table width="100%" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="date" style="font-family:Arial, Helvetica, sans-serif; font-size:15px; line-height:19px; text-align:left; color:#8d8080">&nbsp;</td>
+														<td align="right">
+															<table border="0" cellspacing="0" cellpadding="0">
+																<tr>
+																	<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"><img src="http://www.iheadache.com/emails/images/icon_online.jpg" width="10" height="10" alt="" border="0" /></td>
+																	<td class="top-2" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:15px; text-align:left"><a class="link-top-2" style="text-decoration:none; color:#5f5e59" target="_blank" href="${siteUrl}welcome-email?id=$user.id"><span class="link-top-2" style="text-decoration:none; color:#5f5e59">Online Version</span></a></td>
+																	<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="20"></td>
+																	
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>				<tr>
+					<td>
+						<div class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="https://app.iheadache.com" target="_blank"><img src="http://www.iheadache.com/emails/images/header.jpg" width="650" height="196" alt="Login to iHeadache" border="0" /></a></div>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d9d9d9"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d6d6d6"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d1d1d1"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#c9c9c9"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#c0c0c0"></td>
+								<td bgcolor="#ffffff">
+									<div style="font-size:0pt; line-height:0pt; height:7px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="7" style="height:7px" alt="" /></div>
+
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td valign="top" width="428" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121">
+												<div style="font-size:0pt; line-height:0pt; height:10px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="10" style="height:10px" alt="" /></div>
+
+												<div>
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"></td>
+															<td>
+																<div class="h2" style="font-family:Arial, Helvetica, sans-serif; font-size:28px; line-height:1; font-weight:normal; text-align:left; letter-spacing:-1px; color:#341717">Thank you for registering!</div>
+															  <div style="font-size:0pt; line-height:0pt; height:25px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="25" style="height:25px" alt="" /></div>
+
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121">
+																		  <div>
+																		    <p>$user.firstName,</p>
+																		    <p>Thank you for registering for iHeadache Online, the only comprehensive headache diary available on the internet. It will be an invaluable tool that will help you and your physician optimize your headache care. You may want to bookmark  <a href="https://app.iHeadache.com" title="Login to iHeadache" target="_blank">app.iHeadache.com</a> in your browser so you can get to it easily when you are having a headache.</p>
+																		    <br>
+																		    <p><strong>Your user name is:  $user.name</strong></p>
+																		  </div>
+																		  <div class="img" style="font-size:0pt; line-height:0pt; text-align:left"></div>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="35"></td>
+														</tr>
+													</table>
+													<div style="font-size:0pt; line-height:0pt; height:20px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="20" style="height:20px" alt="" /></div>
+
+													<div class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/separator_1.jpg" width="428" height="5" alt="" border="0" /></div>
+													<div style="font-size:0pt; line-height:0pt; height:15px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15" style="height:15px" alt="" /></div>
+
+												</div>
+
+												<div>
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"></td>
+															<td>
+																<div class="h2" style="font-family:Arial, Helvetica, sans-serif; font-size:28px; line-height:1; font-weight:normal; text-align:left; letter-spacing:-1px; color:#341717">Getting Started is easy as 1-2-3!</div>
+																<div style="font-size:0pt; line-height:0pt; height:25px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="25" style="height:25px" alt="" /></div>
+
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr valign="middle">
+                                                                    	<td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><span class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><span class="h4" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:18px; font-weight:normal; text-align:left; color:#341717"><strong>Step 1: Setup your Acute Treatment &amp; Trigger Profiles.</strong></span></span>                                                                        																  </td>
+																	  </tr>
+                                                                    <tr>																		
+																	  <td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><div style="font-size:0pt; line-height:0pt; height:15px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15" style="height:15px" alt="" /></div>
+
+																			<div>
+																			  <p><strong>IMPORTANT: </strong>Before you enter your first headache make sure you setup your acute medication and trigger profiles. Click the<em><strong> Profile tab </strong></em>on the far right and then  select <em><strong>Acute Treatments</strong></em>. Choose from almost 50 common acute headache treatments and select the ones you take when you are having a headache. If you can't find a particular treatment then you can also add custom ones.<strong><em>When you are done, don't forget to click OK to save your selections.</em></strong></p> 
+																			  <br />
+																			  <p>Next you need to go into <em><strong>Triggers</strong></em> and select the ones you want to track. There are over 20 common headache triggers but you can also setup your own.<strong><em> When you are done, don't forget to click OK to save your selections.</em></strong></p>
+																			</div>
+                                                                            <div style="font-size:0pt; line-height:0pt; height:30px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="30" style="height:30px" alt="" /></div>
+</td>
+																	</tr>
+																	<tr>
+																	  <td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><span class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><span class="h4" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:18px; font-weight:normal; text-align:left; color:#341717"><strong>Step 2: Do you take preventative treatments? Start tracking them!</strong></span></span></td>
+																  </tr>
+																	<tr>
+																	  <td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><div style="font-size:0pt; line-height:0pt; height:15px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15" style="height:15px" alt="" /></div>
+																			<p>If you are taking preventative treatments then you will want to use our Preventative Treatment Tracker. First go to your <em><strong>Profile</strong></em> and then choose<em><strong> Preventative Treatment Profile</strong></em>.  Select from over 50 preventative treatments or add your own custom ones.<strong><em> When you are done, don't forget to click OK to save your selections.</em></strong></p>
+																			<p>&nbsp;</p>
+																			<p>Next go to the <strong><em>Preventatives Tab</em></strong> and add a treatment from your profile. Enter the dose and date you started taking the medication or treatment. <strong><em>When you are done, don't forget to click OK to save your selections.</em></strong></p>
+																			<div style="font-size:0pt; line-height:0pt; height:30px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="30" style="height:30px" alt="" /></div></td>
+																  </tr>
+                                                                  <tr>
+                                                                      <td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-allign:left; color:#262121"><strong><span style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #341717">Step 3: Start entering your headaches &amp; take your headache report to your doctor.</span></strong></td>
+                                                                  </tr>
+                                                                  <tr>
+																	  <td align="center" valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><div style="font-size:0pt; line-height:0pt; height:15px"></div>
+																			To add a headache for the current day, go to the <em><strong>My Diary tab </strong></em>and click <em><strong>Add Headache for Today</strong></em>. If you want to add a headache on a prior day <span class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121">scroll through the months</span> on the calendar to find a particular day. Select the day your headache occurred and click <span id="sprytrigger6"><strong><em>Add Headache for Selected Date</em></strong></span>.</li>
+                                                                            </ul>Fill in your symptoms, acute treatments, pain, triggers and disability. iHeadache will use your data to classify the headache as a migraine, probable migraine, tension headache or unclassified headache. 
+                                                                            <div style="font-size:0pt; line-height:0pt; height:15px"><em><strong><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15" style="height:15px" alt="" /></strong></em></div>
+</td>
+																  </tr>
+																</table>
+															</td>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="35"></td>
+														</tr>
+													</table>
+													<div style="font-size:0pt; line-height:0pt; height:20px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="20" style="height:20px" alt="" /></div>
+
+													<div class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/separator_1.jpg" width="428" height="5" alt="" border="0" /></div>
+													<div style="font-size:0pt; line-height:0pt; height:15px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15" style="height:15px" alt="" /></div>
+
+												</div>
+
+												<div>
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"></td>
+															<td>
+																<div class="h2" style="font-family:Arial, Helvetica, sans-serif; font-size:28px; line-height:1; font-weight:normal; text-align:left; letter-spacing:-1px; color:#341717">Are you using our iPhone App?</div>
+																<div style="font-size:0pt; line-height:0pt; height:25px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="25" style="height:25px" alt="" /></div>
+
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td valign="top" class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="125"><a href="http://www.iHeadache.com/ap-apps.html" target="_blank"><img src="http://www.iheadache.com/emails/images/headache.jpg" width="116" height="223" alt="" border="0" /></a></td>
+																		<td width="254" valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121">
+																			<div>The iHeadache  App and iHeadache Online <em><strong>do not sync at this time</strong></em> therefore data that you enter in the app will not be available in iHeadache Online.&nbsp;<strong><em> iHeadache Online is currently available as a beta site so that users can test it and report any bugs or errors that they find.</em></strong> We anticipate adding the sync functionality once the site has been fully tested. <br />
+                                                                              <br />
+iHeadache does not have a commercial sponsor or advertisers at this time so new functionality such as syncing may be delayed until funding is received. If you would like to donate to iHeadache and support future development  then <a href="http://www.iHeadache.com/co-funding.html" title="Donate to iHeadache" target="_blank" class="text-hyperlink">click here.</a></div>
+																			<div class="img" style="font-size:0pt; line-height:0pt; text-align:left"></div>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="35"></td>
+														</tr>
+													</table>
+													<div style="font-size:0pt; line-height:0pt; height:20px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="20" style="height:20px" alt="" /></div>
+
+												</div>
+											</td>
+											<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="5" bgcolor="#f7f7f8" valign="top"><img src="http://www.iheadache.com/emails/images/sidebar_separator_2.jpg" width="5" height="105" alt="" border="0" /></td>
+											<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d2d2d2" valign="top"><img src="http://www.iheadache.com/emails/images/sidebar_separator_1.jpg" width="1" height="105" alt="" border="0" /></td>
+											<td valign="top" width="206">
+												<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="12"></td>
+		<td width="179" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121">
+			<div style="font-size:0pt; line-height:0pt; height:15px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15" style="height:15px" alt="" /></div>
+			<div>
+				<div class="h3" style="font-family:Arial, Helvetica, sans-serif; font-size:19px; line-height:1; font-weight:normal; text-align:left; color:#341717">Important Resources</div>
+				<div style="font-size:0pt; line-height:0pt; height:15px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15" style="height:15px" alt="" /></div>
+
+				<div>
+					<p><a href="http://www.iheadache.com/help/default.html" title="iHeadache Quick Start Guide" target="_blank" class="link" style="text-decoration:none; color:#2569db"><span class="link" style="text-decoration:none; color:#2569db">&raquo; Quick Start Guide</span></a><br />
+					  <span class="link" style="text-decoration:none; color:#2569db"><a href="/sp-videos.html">&raquo; </a></span><a href="http://www.iheadache.com/sp-videos.html" title="iHeadache Tutorials" target="_blank"><span class="link" style="text-decoration:none; color:#2569db">Video Tutorials</span></a><a href="#" target="_blank" class="link" style="text-decoration:none; color:#2569db"><span class="link" style="text-decoration:none; color:#2569db"></span></a><br />
+					  <a href="http://www.iheadache.com/help/iHeadache_UserGuide.html" title="iHeadache User Manual" target="_blank" class="link" style="text-decoration:none; color:#2569db"><span class="link" style="text-decoration:none; color:#2569db">&raquo; User Manual</span></a><br />
+					  <a href="http://www.iheadache.com/sp-faq.html" title="iHeadache FAQs" target="_blank" class="link" style="text-decoration:none; color:#2569db"><span class="link" style="text-decoration:none; color:#2569db">&raquo; FAQs </span></a></p>
+					<p><a href="http://www.iheadache.com/sp-contact.html" title="Contact iHeadache Support" target="_blank" class="link" style="text-decoration:none; color:#2569db"><span class="link" style="text-decoration:none; color:#2569db">&raquo; Contact Support</span></a><br />
+					  </p>
+                </div>
+				<div style="font-size:0pt; line-height:0pt; height:45px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="45" style="height:45px" alt="" /></div>
+</div>
+			<div>
+                    <div class="h3" style="font-family:Arial, Helvetica, sans-serif; font-size:19px; line-height:1; font-weight:normal; text-align:left; color:#341717">Supported <span class="h3" style="font-family:Arial, Helvetica, sans-serif; font-size:19px; line-height:1; font-weight:normal; text-align:left; color:#341717">Devices</span></div>
+				<div style="font-size:0pt; line-height:0pt; height:15px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15px" style="height:15px" alt="" /></div>
+
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><div>iHeadache was designed to be used from a computer and at this time we <strong><em>do not officially support the use of tablets or smartphones</em></strong><em>. </em>However we have tested the site from an iPhone, iPad and Galaxy Note and  all the functionality works fine <em><strong>except the profile area</strong></em>. You will need to setup/edit your profile from a computer. If the site looks small on your mobile device then be sure to enlarge the page or zoom in.</div>
+						</td>
+					</tr>
+					<tr>
+					  <td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121">&nbsp;</td>
+					  </tr>
+				</table>
+				<div style="font-size:0pt; line-height:0pt; height:45px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="45" style="height:45px" alt="" /></div>
+
+			</div>
+
+			<div class="h3" style="font-family:Arial, Helvetica, sans-serif;  font-size:19px; line-height:1; font-weight:normal; text-align:left; color:#341717">Supported	Browsers			</div>
+			<div style="font-size:0pt; line-height:0pt; height:20px"><img src="http://www.iheadache.com/emails/images/blue/empty.gif" width="1" height="20" style="height:20px" alt="" /></div>
+
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="center">
+							<table width="171" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/sidebar_socials_top.jpg" width="171" height="3" alt="" border="0" /></td>
+								</tr>
+								<tr>
+									<td bgcolor="#e3dedd">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"></td>
+												<td>
+												  <div style="font-size:0pt; line-height:0pt; height:12px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="12" style="height:12px" alt="" /></div>
+
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="36"><span class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/icon_IE.png" width="30" height="30" alt="Internet Explorer" border="0" /></span></td>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="36"><span class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/icon_Firefox.png" width="30" height="30" alt="firefox" border="0" /></span></td>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="36"><span class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/icon_Safari.png" width="30" height="30" alt="safari" border="0" /></span></td>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><span class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/icon_Chrome.png" width="30" height="30" alt="chrome" border="0" /></span></td>
+														</tr>
+													</table>
+													<div style="font-size:0pt; line-height:0pt; height:10px"><img src="http://www.iheadache.com/emails/images/blue/empty.gif" width="1" height="10" style="height:10px" alt="" /></div>
+
+												</td>
+												<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/sidebar_socials_bottom.jpg" width="171" height="3" alt="" border="0" /></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<div style="font-size:0pt; line-height:0pt; height:20px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="20" style="height:20px" alt="" /></div>
+
+			
+            <div class="h3" style="font-family:Arial, Helvetica, sans-serif; font-size:19px; line-height:1; font-weight:normal; text-align:left; color:#341717">About iHeadache</div>
+				<div style="font-size:0pt; line-height:0pt; height:15px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="15px" style="height:15px" alt="" /></div>
+
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+					  <td valign="top" class="text" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; text-align:left; color:#262121"><div>
+					    <p>iHeadache is developed and maintained by Better QOL, Inc. (In case you are wondering &quot;QOL&quot; stands for Quality of Life). Our goal is to make iHeadache accessible to all people with headaches for free.&nbsp;We do not have a sponsor or advertisers at this time and have personally funded the development and ongoing maintenance of iHeadache as a public service. Read more about <a href="http://www.iheadache.com/co-about.html" title="Our Mission" target="_blank">our mission</a> and <a href="http://www.iheadache.com//co-funding.html" title="iHeadache Funding" target="_blank">funding</a>.</p>
+					  </div></td>
+					  </tr>
+					</table>
+                    <div style="font-size:0pt; line-height:0pt; height:45px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="45" style="height:45px" alt="" /></div>
+
+			</div>
+				<div class="h3" style="font-family:Arial, Helvetica, sans-serif; font-size:19px; line-height:1; font-weight:normal; text-align:left; color:#341717">Social Networks</div>
+				<div style="font-size:0pt; line-height:0pt; height:20px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="20" style="height:20px" alt="" /></div>
+
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td align="center">
+							<table width="171" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/sidebar_socials_top.jpg" width="171" height="3" alt="" border="0" /></td>
+								</tr>
+								<tr>
+									<td bgcolor="#e3dedd">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="32"></td>
+												<td width="108">
+													<div style="font-size:0pt; line-height:0pt; height:12px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="12" style="height:12px" alt="" /></div>
+
+													<table width="135px" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:center" width="45"><a href="http://www.facebook.com/iHeadache" target="_blank"><img src="http://www.iheadache.com/emails/images/icon_facebook.jpg" width="30" height="30" alt="facebook" border="0" /></a></td>
+															<td class="img" style="font-size:0pt; line-height:0pt; text-align:center" width="45"><a href="http://twitter.com/iheadache" target="_blank"><img src="http://www.iheadache.com/emails/images/icon_twitter.jpg" width="30" height="30" alt="twitter" border="0" /></a></td>
+															<td width="44" class="img" style="font-size:0pt; line-height:0pt; text-align:center"><span class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="http://www.youtube.com/user/BNeurology" target="_blank"><img src="http://www.iheadache.com/emails/images/icon_youtube.jpg" width="30" height="30" alt="youtube" border="0" /></a></span></td>
+														</tr>
+													</table>
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+													  
+												    </table>
+													<div style="font-size:0pt; line-height:0pt; height:10px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="10" style="height:10px" alt="" /></div>
+
+												</td>
+												<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="31"></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/sidebar_socials_bottom.jpg" width="171" height="3" alt="" border="0" /></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<div style="font-size:0pt; line-height:0pt; height:20px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="20" style="height:20px" alt="" /></div>
+
+			</div>
+			
+		</td>
+		<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="15"></td>
+	</tr>
+</table>			
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#c0c0c0"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#c9c9c9"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d1d1d1"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d6d6d6"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d9d9d9"></td>
+							</tr>
+						</table>
+								</td></tr><tr>
+					<td>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d9d9d9"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d6d6d6"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d1d1d1"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#c9c9c9"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#c0c0c0"></td>
+								<td bgcolor="#02a2df" class="footer" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:18px; text-align:center; color:#001840">
+									<div style="font-size:0pt; line-height:0pt; height:10px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="10" style="height:10px" alt="" /></div>
+
+									<div>Better QOL, Inc. 6700 W. Loop South, Ste 330 Bellaire, TX 77401   <a href="http://www.iHeadache.com" target="_blank" class="link-footer" style="color:#f9ece9"><span class="link-footer" style="color:#f9ece9">www.iHeadache.com</span></a></div>
+									<div style="font-size:0pt; line-height:0pt; height:3px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="3" style="height:3px" alt="" /></div>
+
+								</td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#c0c0c0"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#c9c9c9"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d1d1d1"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d6d6d6"></td>
+								<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="1" bgcolor="#d9d9d9"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>	
+				<tr>
+					<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><img src="http://www.iheadache.com/emails/images/footer.jpg" width="650" height="13" alt="" border="0" /></td>
+				</tr>						
+			</table>
+			<div class="credits" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:18px; text-align:center; color:#656565">
+				<div>Copyright &copy; 2013 Better QOL, Inc. All rights reserved. </div> <a class="link" style="text-decoration:none; color:#2569db" target="_blank" href="#"><span class="link" style="text-decoration:none; color:#2569db">Unsubscribe</span></a>	
+			</div>
+			<div style="font-size:0pt; line-height:0pt; height:20px"><img src="http://www.iheadache.com/emails/images/empty.gif" width="1" height="20" style="height:20px" alt="" /></div>
+

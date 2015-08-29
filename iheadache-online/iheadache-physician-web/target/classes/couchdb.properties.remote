@@ -1,0 +1,16 @@
+url=https://betterqol.cloudant.com:443/
+#amazon url=http://54.210.227.194:5984/
+#url=http://betterqol.cloudbees.cloudant.com:80/
+maxConnections=20
+connectionTimeout=1000
+socketTimeout=10000
+enableSSL = true
+relaxedSSLSettings = true
+autoUpdateViewOnChange=true
+#BetterQOL Cloudant account
+username=youldntinguivaingenterea
+password=LN1j7px0sPKQ01nbeM3gm8QS
+#Cloudbees cloudant account
+#username=finewereareakilycietayer
+#password=ADlnTtCgjuDO1H1fiJvarCPO
+#iheadache-physician-web/src/main/resources/couchdb.properties 697

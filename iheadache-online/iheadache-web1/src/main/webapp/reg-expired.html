@@ -1,0 +1,61 @@
+<%@ taglib prefix='c' uri='http://java.sun.com/jstl/core_rt' %>
+<html>
+<head>
+<link rel="stylesheet" href="resources/css/saas-common.css" />
+  <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script src="resources/js/common.js"></script>
+  <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="//code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<title>Recover your password</title>
+  <script type="text/javascript" >
+  $(function() {
+	  
+	  
+      $("#sendagain").bind("click", function(o) {
+    	  
+    	  $.post("recoverpw2", 
+  				"",
+  				function(data) {
+  				data = $.parseJSON(data);
+  				$("span.email").html(data[1]);
+  			 	$("#"+data[0]).dialog('open');
+  			 }); 
+      });
+	  
+	  
+	  $( "#ERROR" ).dialog({ autoOpen: false, buttons: [{text: "Try Again", click: function() {location.reload(true);}} ,
+	    	{text: "Ok", click: function() {  window.location = "/reg-pt.html"; } } ] });
+	  $( "#OK" ).dialog({ autoOpen: false, buttons: [{ text:"Ok", click: function() { window.location = "/index.html";} } ]});
+	  
+  });
+  </script>
+</head>
+<body>
+<div class='solo solo-forms'>
+<img id="ext-gen1092" width="240" xheight="60" alt="iHeadache Online" src="resources/images/logo-int.png">
+<div id="ERROR" title="Oops!">
+    <p>There was an error.</p>
+</div>
+
+<div id="OK" title="Success!">
+    <p>
+    An email has been sent to <span class="email"></span> .  Click the link in the email to create a new password. This link expires in 24 hours.  
+<br/>You may need to add Support@iHeadache.com to your white list.      
+    </p>
+</div>
+<div class="entry">
+        <h1 class='txt-c'>Change Password Link Has Expired</h1>
+
+	<div class='error'><p>It has been more than 24 hours since you requested the link to reset your password.
+	<a href="#" id="sendagain" >Click Here</a> to request another email with a new link to reset your password.  
+	</p>
+</div>
+</div> <!-- entry -->
+
+
+
+
+</div> <!-- solo-forms -->
+</body>
+</html>

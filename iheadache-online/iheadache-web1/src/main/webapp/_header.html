@@ -1,0 +1,27 @@
+<div>
+		<div class="center">
+			<div class="topLinks">
+				<div class="menu-top-links-container">
+					<ul id="menu-top-links" class="menu sf-menu">
+						<li class="menu-item">
+							<a href="#">My Account</a>
+							<ul>
+								<li><a onClick="javascript:Ext.create('IH.view.profile.UserProfileEditor')">Personal Information</a></li>
+								<li><a onClick="javascript:Ext.create('IH.view.profile.SecurityEditor')">Credentials</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<a href="#">Help</a>
+							<ul>
+								<li><a onClick="javascript:IH.app.fireEvent('show-help','default.html')">Quick Start Guide</a></li>
+								<li><a onClick="javascript:IH.app.fireEvent('show-help','iHeadache_UserGuide.html')">User Manual</a></li>
+							</ul>
+						</li>
+						<li class="menu-item"><a onClick="javascript:Ext.create ('IH.core.EmptyPost','/app/service/profile/logout');window.location.reload()">Logoff</a></li>
+					</ul>
+				</div>
+			</div>
+			<h1 id="logo"><a href="index.html"><img src="resources/images/logo-int.png" alt="iHeadache Online" width="385" height="60" /></a></h1>
+			<br /><br /><br /><span id="patientName" style="margin-left:27em">Welcome</span>
+		</div>
+</div>

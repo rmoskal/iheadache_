@@ -1,0 +1,10 @@
+url=http://mostmedia.cloudbees.cloudant.com:80/
+maxConnections=20
+connectionTimeout=1000
+socketTimeout=10000
+autoUpdateViewOnChange=false
+username=achistreassiserstiongles
+password=034467cCn1IVR5Bv2M6xXOMg
+
+
+

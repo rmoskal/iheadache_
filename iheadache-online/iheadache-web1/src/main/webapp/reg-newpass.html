@@ -1,0 +1,77 @@
+<%@ taglib prefix='c' uri='http://java.sun.com/jstl/core_rt' %>
+<html>
+<head>
+<link rel="stylesheet" href="resources/css/saas-common.css" />
+  <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script src="resources/js/common.js"></script>
+  <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="//code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<title>Recover your password</title>
+  <script type="text/javascript" >
+  $(document).ready(function(){
+	 setupValidation();
+    $("#passForm").validate({
+    	rules: {
+    		password: {password:true},
+    		passwordConfirm: {equalTo: '#password'},
+    	},
+    	
+    	submitHandler: function(form) {
+    		$.post("changepw", $("#passForm").serialize(),
+    				function(data) {
+    				data = $.parseJSON(data);
+    				switch(data[0]) {
+    				case "OK":
+    					window.location = "index.html"
+    					break;
+    				case "EXPIRED":
+    					window.location = "reg-expired.html"
+        				break;
+    					
+    				};
+    			   		
+    			 }		
+    		);
+    		 }
+    });
+  });
+  </script>
+</head>
+<body>
+<div class='solo solo-forms'>
+<img id="ext-gen1092" width="240" xheight="60" alt="iHeadache Online" src="resources/images/logo-int.png">
+
+<div class="entry">
+      <form id="passForm" method="post" action="">
+        <h1 class='txt-c'>Your username is <c:out value="${principal.name}"/>.  Please enter your new password below.</h1>
+        <table border="0" align="center">
+          <tbody>
+          <tr>
+            <td>&nbsp;</td>
+            <td><span class="comment-content">Note: Passwords must contain six characters and be a combination of letters and numbers.</span></td>
+          </tr>
+   		<tr>
+            <td class="right">Password:</td>
+            <td><input name="password" type="password" id="password" class="required"></td>
+          </tr>
+          <tr>
+            <td class="right">Verify Password:</td>
+            <td><input name="passwordConfirm" type="password" id="passwordConfirm" class="required">
+            <input name ="hash" type="hidden" value="<c:out value="${hash}"/>">
+            </td>
+          </tr>       
+          <tr>
+            <td colspan='2' class='txt-c'><br/><br/><input type="submit" name="Submit" id="Submit" value="Submit">
+            </td>
+          </tr>
+        </tbody></table>
+         </form>
+    </div> <!-- entry -->
+
+
+
+
+</div> <!-- solo-forms -->
+</body>
+</html>

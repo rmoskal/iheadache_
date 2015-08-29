@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>iHeadache Online</title>
+<%@ include file="_head.html" %>
+
+</head>
+<body class="home page page-template-page-home-php">
+<div class="header">
+		<%@ include file="_header.html" %>
+</div>
+<div class="container">
+	<div class="center" id="tab-area">							
+		<ul id="nav-tabs" class='hor'>
+			<li id="nav-tab2" class='ui-tabs-selected'>
+				<a href="#tab2">My Diary</a>
+			</li>
+			<li id="nav-tab1">
+				<a href="#tab1">Dashboard</a>
+			</li>
+			<li id="nav-tab3">
+				<a href="#tab3">Calendar</a>
+			</li>
+			<li id="nav-tab4">
+				<a href="#tab4">Headache Log</a>
+			</li>
+			<li id="nav-tab7">
+				<a href="#tab7">Headache Log</a>
+			</li>
+			<li id="nav-tab5">
+				<a href="#tab5">Reports</a>
+			</li>
+			<li id="nav-tab6">
+				<a href="#tab6">Profile</a>
+			</li>
+		</ul>
+		
+		
+		<script type="text/javascript">
+		
+		   function doSideNav(target) {
+			   IH.app.fireEvent('change-tab', target);
+			   
+			   
+		   } ;
+		   
+	   		function doProfileSideNav(target) {
+			   
+			   IH.app.fireEvent('change-profiletab', target);
+			   
+		   } ;
+		   
+		   
+		   function renderDiary() {
+			   
+				 if(IH.current.diary !=null) 
+					 return;
+				 	var controller = IH.app.getController('IH.controller.Diary');
+				 	IH.current.diary = controller.renderMe();
+				 	return IH.current.diary;
+			   
+		   }
+		   
+		   function changeTab(){
+			   $('#tab-area').tabs('select', 2);
+		   };
+
+		   var page_calendar;
+		   var page_log;
+		   var page_report;
+		   var page_preventative;
+		   
+	        Ext.Loader.setConfig ({enabled:true});
+		
+		$(function() {
+			$('#tab-area').tabs();	
+			$('ul.sf-menu').superfish();
+			
+			
+
+
+			jQuery('.default-value').each(function() {
+				var default_value = this.value;
+				jQuery(this).focus(function() {
+					if(this.value == default_value) {
+					this.value = '';
+					}
+				});
+				jQuery(this).blur(function() {
+					if(this.value == '') {
+						this.value = default_value;
+					}
+				});
+			});
+
+		});
+		
+		
+		   Ext.onReady(function(){   
+			   
+			    var renderer = Ext.util.Format.dateRenderer('Y-M-d');
+				$('#tab-area').bind('tabsshow', function(event, ui) {
+	
+					
+					if (ui.index==0) {
+	
+					 	renderDiary();
+					};
+					
+					if (ui.index==1) {
+						
+						IH.app.fireEvent('change-tab', 'DashFront'); 
+					};
+					
+					
+					if (ui.index==2) {
+						 //IH.app.fireEvent('top-tab-change');
+						 if(page_calendar!=null) return;
+						 
+						 page_calendar = Ext.create('IH.view.calendar.Calendar');
+							
+					};
+					
+					if (ui.index==3) {
+						//IH.app.fireEvent('top-tab-change', 'Log'); 
+						 if(page_log!=null) {
+							 
+                			 controller = IH.app.getController('Log');
+                			 controller.refresh();
+							 return;
+						 }
+						 page_log= Ext.create('IH.view.log.Window', {
+					            renderTo:'main-content4'});
+					};
+					
+					if (ui.index==4) {
+						 
+						 if(page_preventative!=null) return;
+						 var controller = IH.app.getController('Preventative');
+						 page_preventative = controller.renderMe()
+						 
+					};
+					
+					if (ui.index==6) {
+					
+					var controller = IH.app.getController('Profile');
+   					controller.init();
+   					doProfileSideNav('Pro_Preference');
+		   				
+					};
+					
+					if (ui.index==5) {
+						if(page_report!=null) return;
+						var controller = IH.app.getController('IH.controller.Reports');
+						page_report = controller.renderMe();
+					};
+					
+
+				});  		   
+	
+		   });
+		</script>
+
+		<div class="proms">
+			<div>
+				<div id="tab1" class="tab-content">
+					
+					<div class='sidebar'>
+					<ul class="submenu">
+							<li id="DashFront"><a href="javascript:doSideNav('DashFront');" ><img src="resources/images/icons/i_stock.png" alt="">Dashboard</a></li>
+							<li id="DashAcute"><a href="javascript:doSideNav('DashAcute');" ><img src="resources/images/icons/i-medications-32.png" alt="">Acute Treatments</a></li>
+							<li id="DashPreventative" class='two-line'><a href="javascript:doSideNav('DashPreventative')" ><img src="resources/images/icons/i_safe30x30.png" alt="">Preventative Treatments</a></li>
+							<li id ="DashDisability"><a href="javascript: doSideNav('DashDisability')" ><img src="resources/images/icons/i-disability.png" alt="">Disability</a></li>
+							<li id="DashTrigger"><a href="javascript: doSideNav('DashTrigger')" ><img src="resources/images/icons/i-triggers.png" alt="">Triggers</a></li>
+							<li id="DashPain"><a href="javascript: doSideNav('DashPain')" ><img src="resources/images/icons/i-pain.png" alt="">Pain</a></li>
+							<li id="DashSymptoms"><a href="javascript: doSideNav('DashSymptoms')" ><img src="resources/images/icons/i-symptoms.png" alt="">Symptoms</a></li>
+                         	<li id="DashCalendar"><a href="javascript:doSideNav('DashCalendar')" ><img src="resources/images/icons/i-calendars.png" alt="">Monthly Calendars</a></li>
+						</ul>					
+					<div class="ad">
+<!--Ad Location Dashboard-->
+							<a href='https://iheadache.com/education/SPGblock.html' class="fpo-ad" target="_blank">
+								<img src="https://iheadache.com/adserver/ads/iw/pat/dashboardAd200x200.jpg" border="0" alt="link to vendor">
+							</a>
+<!--
+							<a href="#" class='ad-promo'>See your ad here.</a>
+End Ad Block-->
+					</div> <!-- .ad -->
+					</div> <!-- .side-bar -->
+					
+					<div id="main-content" class='main-content'>
+						</div>
+			
+				</div>
+				<div id="tab2" class="tab-content">
+					<div id='main-content2' class='main-content'>
+						<div class='sidebar float-r'>		
+						<div class="ad">
+<!--Ad Location My Diary-->
+								<a href='https://iheadache.com/education/SPGblock.html' class="fpo-ad-tall" target="_blank">
+									<img src="https://iheadache.com/adserver/ads/iw/pat/diaryAd160x600.jpg" border="0" alt="link to vendor">
+								</a>
+<!--
+								<a href="#" class='ad-promo'>See your ad here.</a>
+End Ad Block-->
+						</div> <!-- .ad -->
+						</div> <!-- .side-bar -->
+						
+					</div>
+				</div>
+				<div id="tab3" class="tab-content">
+					<div id='main-content3' class='main-content'>
+						<div class='sidebar float-r'>		
+						<div class="ad">
+<!--Ad Location Calendar-->
+								<a href='https://iheadache.com/education/SPGblock.html' class="fpo-ad-tall" target="_blank">
+									<img src="https://iheadache.com/adserver/ads/iw/pat/calendarAd160x600.jpg" border="0" alt="link to vendor">
+								</a>
+<!--
+								<a href="#" class='ad-promo'>See your ad here.</a>
+End Ad Block-->
+						</div> <!-- .ad -->
+						</div> <!-- .side-bar -->
+						
+					</div>
+				</div>
+				<div id="tab4" class="tab-content">
+					<div id='main-content4' class='main-content full'>
+						<div class='sidebar float-r'>		
+						<div class="ad">
+<!--Ad Location Log-->
+								<a href='https://iheadache.com/education/SPGblock.html' class="fpo-ad" target="_blank">
+									<img src="https://iheadache.com/adserver/ads/iw/pat/logAd200x200.jpg" border="0" alt="link to vendor">
+								</a>
+<!--
+								<a href="#" class='ad-promo'>See your ad here.</a>
+End Ad Block-->
+							</div> <!-- .ad -->
+						</div> <!-- .side-bar -->
+						
+					</div>
+				</div>
+				<div id="tab7" class="tab-content">
+					<div id='main-content7' class='main-content full'>					
+						<div class='sidebar float-r'>		
+						<div class="ad">
+<!--Ad Location Preventative-->
+								<a href='https://iheadache.com/education/SPGblock.html' class="fpo-ad-tall" target="_blank">
+									<img src="https://iheadache.com/adserver/ads/iw/pat/preventativeAd160x600.jpg" border="0" alt="link to vendor">
+								</a>
+<!--
+								<a href="#" class='ad-promo'>See your ad here.</a>
+End Ad Block-->
+							</div> <!-- .ad -->
+						</div> <!-- .side-bar -->
+						
+						
+					</div>
+
+				</div>
+				<div id="tab5" class="tab-content">
+					<div id='main-content5' class='main-content full'>					
+						<div class='sidebar float-r'>		
+						<div class="ad">
+<!--Ad Location Reports-->
+								<a href='https://iheadache.com/education/SPGblock.html' class="fpo-ad-tall" target="_blank">
+									<img src="https://iheadache.com/adserver/ads/iw/pat/reportAd160x600.jpg" border="0" alt="link to vendor">
+								</a>
+<!--
+								<a href="#" class='ad-promo'>See your ad here.</a>
+End Ad Block-->
+							</div> <!-- .ad -->
+						</div> <!-- .side-bar -->
+						
+					</div>
+
+				</div>
+				<div id="tab6" class="tab-content">
+					
+					<div class='sidebar'>
+					<ul class="submenu">
+							<li id="Pro_Preference"><a href="javascript: doProfileSideNav('Pro_Preference')" ><img src="resources/images/icons/i_gear.png" alt="">Preferences</a></li>
+							<li id="pro_Acute"><a href="javascript:doProfileSideNav('pro_Acute');" ><img src="resources/images/icons/i-medications-32.png" alt="">Acute Treatments</a></li>
+							<li id="Pro_PT_Profile" class='two-line'><a href="javascript:doProfileSideNav('Pro_PT_Profile')" ><img src="resources/images/icons/i_safe30x30.png" alt="">Preventative <br />Treatment Profile</a></li>
+							<li id="Pro_Trigger"><a href="javascript: doProfileSideNav('Pro_Trigger')" ><img src="resources/images/icons/i-triggers.png" alt="">Triggers</a></li>
+							<li id="Pro_Symptoms"><a href="javascript: doProfileSideNav('Pro_Symptoms')" ><img src="resources/images/icons/i-symptoms.png" alt="">Symptoms</a></li>
+							<li id="Pro_Doctor"><a href="javascript: doProfileSideNav('Pro_Doctor')" ><img src="resources/images/icons/i-physician.png" alt="">Physicians</a></li>
+					</ul>	
+					<div class="ad">
+<!--Ad Location Profile-->
+							<a href='https://iheadache.com/education/SPGblock.html' class="fpo-ad" target="_blank">
+								<img src="https://iheadache.com/adserver/ads/iw/pat/profileAd200x200.jpg" border="0" alt="link to vendor">
+							</a>
+<!--
+							<a href="#" class='ad-promo'>See your ad here.</a>
+End Ad Block-->
+						</div> <!-- .ad -->
+					</div> <!-- .side-bar -->
+
+					<div id="main-content6" class='main-content'>
+						</div>
+
+						<div class='sidebar float-r'>		
+						<div class="ad">
+
+<!--Ad Location Profile 2 Doesn't float correctly.  It is too far down the page.
+								<a href='#' class="fpo-ad" target="_blank">
+									Profile 2 Some other ad
+								</a>
+
+								<a href="#" class='ad-promo'>See your ad here.</a>
+End Ad Block-->	
+							</div> <!-- .ad -->
+						</div> <!-- .side-bar -->
+				
+				
+				</div>
+		</div> <!-- div -->		
+	</div> <!--  .proms -->
+</div> <!-- .ccontainer -->
+<!--div.container end -->
+<!--div.footer start -->
+<div class="footer">
+	<%@ include file="_footer.html" %>
+</div>
+<!--div.footer end -->
+
+</body>
+</html>

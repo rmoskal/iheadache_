@@ -1,0 +1,9 @@
+url=http://betterqol.cloudbees.cloudant.com:80/
+maxConnections=20
+connectionTimeout=1000
+socketTimeout=10000
+autoUpdateViewOnChange=true
+username=mburediannersendroconswe
+password=OTcwcCuJFssixxks1XfSETd7
+
+
