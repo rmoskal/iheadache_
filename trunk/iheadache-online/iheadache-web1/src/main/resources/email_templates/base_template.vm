@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title></title>
+	
+	
+	<style type="text/css" media="screen">
+		a{
+	text-decoration:none;
+	color:#2569db
+}
+		body{ padding:0 !important; margin:0 !important; display:block !important; background:#dbdbdb }
+		p { padding:0 !important; margin:0 !important; }
+	
+.text div table tr td table tr .text div {
+	font-family: Arial, Helvetica, sans-serif;
+}
+    
+    
+.text div table tr td table tr .text .h4 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+    </style>
+</head>
+<body style="padding:0; margin:0; background:#dbdbdb;">
+	
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dbdbdb">
+	<tr>
+			<td align="center" valign="top">
+			 $content
+			</td>
+	
+</tr>
+</table>
+</body>
+</html>
+
+	

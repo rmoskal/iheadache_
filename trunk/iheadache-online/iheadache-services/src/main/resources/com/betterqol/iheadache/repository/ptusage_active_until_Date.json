@@ -1,0 +1,6 @@
+{
+"map":
+"function(doc) { 
+if((doc.treatmentDescription) && ((doc.end == null)
+|| (doc.end  >= new Date().getTime()))) {   emit([doc.user,Number(doc.start)], doc);}}"
+}

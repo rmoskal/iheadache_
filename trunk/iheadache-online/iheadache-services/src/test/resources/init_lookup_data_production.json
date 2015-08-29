@@ -1,0 +1,630 @@
+[
+ 
+{
+	"_id" : "TEMPLE_LEFT",
+   "lookupType": "PAIN_LOCATION",
+   "description": "Left Temple"
+},
+
+{
+
+	"_id" : "HEAD_LEFT",
+   "lookupType": "PAIN_LOCATION",
+   "description": "Left Side of Head"
+}
+,
+{
+	"_id" : "TEMPLE_RIGHT",
+   "lookupType": "PAIN_LOCATION",
+   "description": "Right Temple"
+}
+,
+{
+	"_id" : "HEAD_RIGHT",
+   "lookupType": "PAIN_LOCATION",
+   "description": "Right Side of Head"
+},
+{
+	"_id" : "THROBBING",
+   "lookupType": "PAIN_TYPE",
+   "description": "Throbbing"
+},
+{
+	"_id" : "DULL",
+   "lookupType": "PAIN_TYPE",
+   "description": "Dull"
+},
+{
+	"_id" : "ACHING",
+   "lookupType": "PAIN_TYPE",
+   "description": "Aching"
+}
+,
+{
+   "_id": "HAS_AURA",
+   "lookupType": "SYMPTOM",
+   "description": "Preceded By Aura"
+},
+{
+   "_id": "IS_ANILATERAL",
+   "lookupType": "SYMPTOM",
+   "description": "Primarily One Sided"
+},
+{
+   "_id": "IS_MOVEMENT",
+   "lookupType": "SYMPTOM",
+   "description": "Worse With Movement"
+},
+
+{
+   "_id": "IS_THROBBING",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Throbbing Pain"
+},
+
+{
+   "_id": "HAS_NAUSEA",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Nausea"
+},
+{
+   "_id": "HAS_PHOTOPHOBIA",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Sensitivity To Light"
+},
+
+{
+   "_id": "HAS_PHONOBIA",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Sensitivity To Noise"
+},
+
+{
+   "_id": "HAS_OLFACTOPHOBIA",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Sensitivity To Smell"
+},
+
+{
+   "_id": "IS_NECK",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Neck Pain"
+},
+
+{
+   "_id": "IS_SINUS",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Sinus Symptoms"
+},
+
+{
+	"_id": "TRIGGER_01",
+   "lookupType": "TRIGGER",
+   "description": "alcohol"
+},
+
+{
+	"_id": "TRIGGER_02",
+   "lookupType": "TRIGGER",
+   "description": "aspartame"
+},
+
+{
+		"_id": "TRIGGER_03",
+	   "lookupType": "TRIGGER",
+	   "description": "chocolate"
+},
+
+{
+		"_id": "TRIGGER_04",
+	   "lookupType": "TRIGGER",
+	   "description": "caffeine increase"
+},
+
+{
+	    "_id": "TRIGGER_05",
+	   "lookupType": "TRIGGER",
+	   "description": "caffeine decrease"
+},
+
+{
+    "_id": "TRIGGER_06",
+   "lookupType": "TRIGGER",
+   "description": "heat"
+},
+
+{
+    "_id": "TRIGGER_07",
+   "lookupType": "TRIGGER",
+   "description": "hormones/period"
+},
+
+{
+    "_id": "TRIGGER_08",
+   "lookupType": "TRIGGER",
+   "description": "lighting"
+},
+
+
+{
+	   "_id": "TENSION_HEADACHE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "Tension Headache"
+},
+
+{
+	   "_id": "PROBABLE_MIGRAINE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "Probable Migraine"
+},
+
+{
+	   "_id": "MIGRAINE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "Migraine Headache"
+},
+
+{
+	   "_id": "UNCLASSIFIED_HEADACHE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "Unclassified Headache"
+},
+
+{
+	   "_id": "NO_HEADACHE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "No Headache"
+},
+
+
+{
+	   "_id": "DISABILITY_QUESTION_1",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "Unable to go to school or work?"
+},
+
+{
+	   "_id": "DISABILITY_QUESTION_2",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "At work or at school but productivity was less than 50% of normal?"
+},
+
+{
+	   "_id": "DISABILITY_QUESTION_3",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "Unable to do household work?"
+},
+
+{
+	   "_id": "DISABILITY_QUESTION_4",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "Able to do household work but productivity was reduced by 50%?"
+},
+
+{
+	   "_id": "DISABILITY_QUESTION_5",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "Unable to attend social, leisure, or family activities? "
+},
+
+{
+"_id": "STND_TR_ADVIL",
+"description": "Advil&#174;, Motrin&#174;",
+"genericName": "ibuprofen",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_ALEVE",
+"description": "Aleve&#174;",
+"genericName": "naproxen sodium",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_ALSUMA",
+"description": "Alsuma&#174;",
+"genericName": "sumatriptan",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "6 mg"
+},
+{
+"_id": "STND_TR_AMERGE_1_MG",
+"description": "Amerge&#174;",
+"genericName": "naratriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "1 mg"
+},
+{
+"_id": "STND_TR_AMERGE_2_5_MG",
+"description": "Amerge&#174;",
+"genericName": "naratriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "2.5 mg"
+},
+{
+"_id": "STND_TR_ASPIRIN",
+"description": "Aspirin",
+"genericName": "aspirin",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_AXERT",
+"description": "Axert&#174;",
+"genericName": "almotriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "12.5 mg"
+},
+{
+"_id": "STND_TR_CAMBIA",
+"description": "Cambia&#174;",
+"genericName": "diclofenac potassium",
+"form": "oral powder",
+"migraineTreatment": true,
+"uom": "50 mg"
+},
+{
+"_id": "STND_TR_DHE-45",
+"description": "DHE-45&#174;",
+"genericName": "dihydroergotamine",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "1 mg"
+},
+{
+"_id": "STND_TR_DARVON",
+"description": "Darvon&#174;, Darvocet&#174; and similar",
+"genericName": "proproxyphene compounds",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_ESGIC_PLUS",
+"description": "Esgic&#174; plus, and similar",
+"genericName": "butalbital compounds w/codeine",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_ESGIC",
+"description": "Esgic&#174;, Fiorecet&#174;, and similar",
+"genericName": "butalbital compounds w/o codeine",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_EXCEDRIN",
+"description": "Excedrin&#174; migraine and others",
+"genericName": "aspirin/caffeine/acetaminophen",
+"form": "oral tablet or capsule",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_FROVA",
+"description": "Frova&#174;",
+"genericName": "frovatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "2.5 mg"
+},
+{
+"_id": "STND_TR_GELSTAT",
+"description": "Gelstat Migraine&#174;",
+"genericName": "feverfew, ginger",
+"form": "Oral Tablet",
+"migraineTreatment": true,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_IMITREX_100",
+"description": "Imitrex&#174;",
+"genericName": "sumatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "100 mg"
+},
+{
+"_id": "STND_TR_IMITREX_020",
+"description": "Imitrex&#174; Nasal Spray",
+"genericName": "sumatriptan",
+"form": "nasal spray",
+"migraineTreatment": true,
+"uom": "20 mg"
+},
+{
+"_id": "STND_TR_IMITREX_025",
+"description": "Imitrex&#174;",
+"genericName": "sumatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "25 mg"
+},
+{
+"_id": "STND_TR_IMITREX_004",
+"description": "Imitrex&#174; Injection",
+"genericName": "sumatriptan",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "4 mg"
+},
+{
+"_id": "STND_TR_IMITREX_005",
+"description": "Imitrex&#174; Nasal Spray",
+"genericName": "sumatriptan",
+"form": "nasal spray",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_IMITREX_050",
+"description": "Imitrex&#174;",
+"genericName": "sumatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "50 mg"
+},
+{
+"_id": "STND_TR_IMITREX_006",
+"description": "Imitrex&#174; Injection",
+"genericName": "sumatriptan",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "6 mg"
+},
+{
+"_id": "STND_TR_LEVADEX",
+"description": "Levadex&#174;",
+"genericName": "dihydroergotamine",
+"form": "inhaled",
+"migraineTreatment": true,
+"uom": "1 mg"
+},
+{
+"_id": "STND_TR_MAXALT_010D",
+"description": "Maxalt MLT&#174;",
+"genericName": "rizatriptan",
+"form": "dissolvable oral tablet",
+"migraineTreatment": true,
+"uom": "10 mg"
+},
+{
+"_id": "STND_TR_MAXALT_005D",
+"description": "Maxalt MLT&#174;",
+"genericName": "rizatriptan",
+"form": "dissolvable oral tablet",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_MAXALT_010",
+"description": "Maxalt&#174;",
+"genericName": "rizatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "10 mg"
+},
+{
+"_id": "STND_TR_MAXALT_005",
+"description": "Maxalt&#174;",
+"genericName": "rizatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_MIDRIN",
+"description": "Midrin&#174;",
+"genericName": "isometheptene mucate, etc.",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "65/100/325 mg"
+},
+{
+"_id": "STND_TR_MIGRALEX",
+"description": "Migralex&#174;",
+"genericName": "aspirin, magnesium oxide",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "100 mg"
+},
+{
+"_id": "STND_TR_MIGRANAL",
+"description": "Migranal&#174; Nasal DHE",
+"genericName": "dihydroergotamine",
+"form": "nasal spray",
+"migraineTreatment": true,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_OPTINOSE",
+"description": "Optinose&#174;",
+"genericName": "sumatriptan",
+"form": "nasal powder",
+"migraineTreatment": true,
+"uom": "10 mg"
+},
+{
+"_id": "STND_TR_PRODRIN",
+"description": "Prodrin&#174;",
+"genericName": "isometheptene mucate, caffeine, acetaminophen",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "130/200/500 mg"
+},
+{
+"_id": "STND_TR_RELPAX_020",
+"description": "Relpax&#174;",
+"genericName": "eletriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "20 mg"
+},
+{
+"_id": "STND_TR_RELPAX_040",
+"description": "Relpax&#174;",
+"genericName": "eletriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "40 mg"
+},
+{
+"_id": "STND_TR_STADOL_001",
+"description": "Stadol&#174;",
+"genericName": "butorphanol",
+"form": "nasal spray",
+"migraineTreatment": false,
+"uom": "1 mg"
+},
+{
+"_id": "STND_TR_STADOL_ANY",
+"description": "Stadol&#174;",
+"genericName": "butorphanol",
+"form": "intravenous",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_SUMAVEL",
+"description": "Sumavel&#174;",
+"genericName": "sumatriptan",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "6 mg"
+},
+{
+"_id": "STND_TR_TORADOL_010",
+"description": "Toradol&#174;",
+"genericName": "ketorolac",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "10 mg"
+},
+{
+"_id": "STND_TR_TORADOL_030",
+"description": "Toradol&#174;",
+"genericName": "ketorolac",
+"form": "injection",
+"migraineTreatment": false,
+"uom": "30 mg"
+},
+{
+"_id": "STND_TR_TORADOL_060",
+"description": "Toradol&#174;",
+"genericName": "ketorolac",
+"form": "injection",
+"migraineTreatment": false,
+"uom": "60 mg"
+},
+{
+"_id": "STND_TR_TREXIMET",
+"description": "Treximet&#174;",
+"genericName": "sumatriptan/naproxen ",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "85/500  mg"
+},
+{
+"_id": "STND_TR_TYLENOL_CODEINE_ANY",
+"description": "Tylenol#3&#174;",
+"genericName": "acetaminophen w/ codeine",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose "
+},
+{
+"_id": "STND_TR_TYLENOL_ANY",
+"description": "Tylenol&#174;",
+"genericName": "acetaminophen",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose "
+},
+{
+"_id": "STND_TR_VICODIN_ANY",
+"description": "Vicodin&#174;, Norco&#174;, and similar",
+"genericName": "hydrocodone/acetaminophen",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose "
+},
+{
+"_id": "STND_TR_ZELRIX",
+"description": "Zelrix&#174;",
+"genericName": "sumatriptan",
+"form": "transdermal patch",
+"migraineTreatment": true,
+"uom": "6 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_0025D",
+"description": "Zomig ZMT&#174;",
+"genericName": "zolmitriptan",
+"form": "dissolvable oral tablet",
+"migraineTreatment": true,
+"uom": "2.5 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_005D",
+"description": "Zomig ZMT&#174;",
+"genericName": "zolmitriptan",
+"form": "dissolvable oral tablet",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_0025",
+"description": "Zomig&#174;",
+"genericName": "zolmitriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "2.5 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_OO5",
+"description": "Zomig&#174;",
+"genericName": "zolmitriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_005N",
+"description": "Zomig&#174; Nasal Spray",
+"genericName": "zolmitriptan",
+"form": "nasal spray",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+
+{
+   "_id": "PT_Yoga",
+   "ptname": "Vinyasa Yoga",
+   "genericName": "Yoga"
+},
+{
+   "_id": "PT_Chocolate",
+   "ptname": "Lindt Chocolate",
+   "genericName": "Chocolate"
+},
+{
+   "_id": "PT_Spinning",
+   "ptname": "Spinning at 33 rpm",
+   "genericName": "Spiinning"
+}
+
+
+
+
+]

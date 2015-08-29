@@ -1,0 +1,15 @@
+url=https://betterqol.cloudant.com:443/
+#url=https://betterqol.cloudbees.cloudant.com:443/
+maxConnections=100
+connectionTimeout=3000
+socketTimeout=30000
+enableSSL = true
+relaxedSSLSettings = true
+autoUpdateViewOnChange=false
+#BetterQOL Cloudant account
+username=crabilecomerabowedsorned
+password=rERtkj0WbcM6n0WVkFrwmFtk
+#Cloudbees cloudant account
+#username=indstemanderidencrowlyin
+#password=W4NoWuroIQoHn5PECHSdmhAd
+#web1/src/main/resources/remote.production

@@ -1,0 +1,29 @@
+<%@ taglib prefix='c' uri='http://java.sun.com/jstl/core_rt' %>
+<html>
+<head>
+<link rel="stylesheet" href="resources/css/saas-common.css" />
+  <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script src="resources/js/common.js"></script>
+  <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="//code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<title>Recover your password</title>
+</head>
+<body>
+<div class='solo solo-forms'>
+<img id="ext-gen1092" width="240" xheight="60" alt="iHeadache Online" src="resources/images/logo-int.png">
+
+<div class="entry">
+        <h1 class='txt-c'>There was a problem with your request!</h1>
+
+	<div class='error'><p><c:out value="${APP_Exception_message}"/></p>
+	<p>Contact <a href="mailto:support@iHeadache.com?subject=Cannot-recover-password">support@iHeadache.com</a>,
+	 if you think you've received this message erroneously.</p></div>
+    </div> 
+
+
+
+
+</div> <!-- solo-forms -->
+</body>
+</html>

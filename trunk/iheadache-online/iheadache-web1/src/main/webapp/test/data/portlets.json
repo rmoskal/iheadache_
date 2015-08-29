@@ -1,0 +1,22 @@
+﻿[
+	{
+		"id": "portlet-1",
+		"type" : "portlet",
+		"name": "Number of Headaches",
+		"description": "Number of headaches",
+		"img": "/resources/images/widget-1.png",
+		"container" : "row-1-column-1",
+		"orderNumber" : 2,
+		"height" : 330
+	},
+	{
+		"id": "portlet-2",
+		"type" : "portlet",
+		"name": "Preventative Treatments",
+		"description": "Preventative Treatments",
+		"img": "/resources/images/widget-1.png",
+		"container" : "row-1-column-2",
+		"orderNumber" : 1,
+		"height" : 330
+	}
+]

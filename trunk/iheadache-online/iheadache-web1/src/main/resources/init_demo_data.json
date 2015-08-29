@@ -1,0 +1,5604 @@
+[
+
+{
+   "_id": "interesting_1",
+   "end": 1355505596000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1355505496000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1355505496000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1355505496000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+{
+   "_id": "interesting_2",
+   "end": 1428120000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1428100000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1428100000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1428100000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_3",
+   "end": 1428020000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1428000000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1428000000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1428000000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+{
+   "_id": "interesting_4",
+   "end": 1427920000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427900000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427900000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427900000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_5",
+   "end": 1427820000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427800000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427800000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427800000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_6",
+   "end": 1427720000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427700000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427700000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427700000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_7",
+   "end": 1427620000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427600000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427600000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427600000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_8",
+   "end": 1427520000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427500000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427500000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427500000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_9",
+   "end": 1427420000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427400000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427400000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427400000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_10",
+   "end": 1427320000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427300000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427300000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427300000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_11",
+   "end": 1427220000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427200000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427200000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427200000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_12",
+   "end": 1427120000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427100000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427100000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427100000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_13",
+   "end": 1427020000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1427000000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1427000000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1427000000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_14",
+   "end": 1426920000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426900000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426900000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426900000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_15",
+   "end": 1426820000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426800000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426800000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426800000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_16",
+   "end": 1426720000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426700000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426700000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426700000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_17",
+   "end": 1426620000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426600000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426600000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426600000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_18",
+   "end": 1426520000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426500000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426500000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426500000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_19",
+   "end": 1426420000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426400000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426400000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426400000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_20",
+   "end": 1426320000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426300000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426300000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426300000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_21",
+   "end": 1426220000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426200000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426200000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426200000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_22",
+   "end": 1426120000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426100000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426100000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426100000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_23",
+   "end": 1426020000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1426000000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1426000000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1426000000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_24",
+   "end": 1425920000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425900000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425900000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425900000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_25",
+   "end": 1425820000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425800000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425800000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425800000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_26",
+   "end": 1425720000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425700000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425700000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425700000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_27",
+   "end": 1425620000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425600000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425600000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425600000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_28",
+   "end": 1425520000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425500000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425500000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425500000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_29",
+   "end": 1425420000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425400000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425400000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425400000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_30",
+   "end": 1425320000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425300000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425300000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425300000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_31",
+   "end": 1425220000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425200000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425200000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425200000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_33",
+   "end": 1425120000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425100000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425100000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425100000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_34",
+   "end": 1425020000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1425000000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1425000000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1425000000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+{
+   "_id": "interesting_35",
+   "end": 1424920000000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1424900000000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1424900000000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1424900000000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+},
+
+
+
+{
+   "_id": "interesting_36",
+   "end": 1398253600000,
+   "kind": {
+       "id": "UNCLASSIFIED_HEADACHE",
+       "description": "Unclassified Headache"
+   },
+   "user": "f65762e9-11b1-4965-a3c5-913c13af078b",
+   "pains": [
+       {
+           "time": 1398253600000,
+           "level": 0,
+           "painLocation": [
+               {
+                   "id": "EYE_RIGHT",
+                   "description": "Right Eye"
+               }
+           ],
+           "painType": [
+               {
+                   "id": "ACHING",
+                   "description": "Aching"
+               },
+               {
+                   "id": "FOREIGNBODY",
+                   "description": "Foreign Body"
+               }
+           ]
+       }
+   ],
+   "treatments": [
+       {
+           "dose": 1398253600000,
+           "treatment": {
+               "description": "Actiq&#174;",
+               "genericName": "Fentanyl",
+               "form": "Oral",
+               "uom": "200 Mg",
+               "migraineTreatment": false,
+               "_id": "STND_TR_ADVIL",
+               "_rev": ""
+           }
+       }
+   ],
+   "symptoms": [
+       {
+           "id": "HAS_AURA",
+           "description": "Preceded By Aura",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_ANILATERAL",
+           "description": "Primarily One Sided",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_MOVEMENT",
+           "description": "Worse With Movement",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_THROBBING",
+           "description": "Accompanied With Throbbing Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_NAUSEA",
+           "description": "Accompanied With Nausea",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHOTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Light",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_PHONOBIA",
+           "description": "Accompanied With Sensitivity To Noise",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "HAS_OLFACTOPHOBIA",
+           "description": "Accompanied With Sensitivity To Smell",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_NECK",
+           "description": "Accompanied With Neck Pain",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "IS_SINUS",
+           "description": "Accompanied With Sinus Symptoms",
+           "yes": true,
+           "no": false
+       },
+       {
+           "id": "yyy",
+           "description": "Butterflies in stomach",
+           "yes": true,
+           "no": false
+       }
+   ],
+   "disability": {
+       "partiallyDisabled": 0,
+       "completelyDisabled": 0,
+       "responses": [
+           {
+               "id": "DISABILITY_QUESTION_1",
+               "description": "Unable to go to school or work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_2",
+               "description": "At work or at school but productivity was less than 50% of normal?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_3",
+               "description": "Unable to do household work?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_4",
+               "description": "Able to do household work but productivity was reduced by 50%?",
+               "yes": false,
+               "no": false
+           },
+           {
+               "id": "DISABILITY_QUESTION_5",
+               "description": "Unable to attend social, leisure, or family activities? ",
+               "yes": false,
+               "no": false
+           }
+       ]
+   },
+   "start": 1398253600000,
+   "midas": 0,
+   "triggers": [
+   ],
+	"note": "Just to see.",
+   "fromYesterday": false,
+   "noHeadache": false,
+   "atBedtime": false,
+   "diaryHeadacheComplete": true,
+   "recordComplete": false
+}
+
+
+]

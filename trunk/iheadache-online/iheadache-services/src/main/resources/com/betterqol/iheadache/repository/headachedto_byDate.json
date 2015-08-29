@@ -1,0 +1,9 @@
+{
+	"map": "function(doc) { if(doc.kind) {emit([doc.user,Number(doc.start)], 
+{'id': doc._id,'start':doc.start, 'end':doc.end,
+'partiallyDisabled':doc.disability.partiallyDisabled,
+'completelyDisabled':doc.disability.completelyDisabled,
+'midas':doc.midas, 'kind':doc.kind.id,'description':doc.kind.description
+
+}); } }"
+}

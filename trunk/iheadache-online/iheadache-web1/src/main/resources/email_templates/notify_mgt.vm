@@ -1,0 +1,17 @@
+<p>A new user signed up at $now </p>
+<p> $user.id </p>
+<p> $user.name </p>
+<p> $user.firstName </p>
+<p> $user.lastName </p>
+<p> $user.address1 </p>
+<p> $user.address2 </p>
+<p> $user.city </p>
+<p> $user.state </p>
+<p> $user.zipcode </p>
+<p> phone: $user.phone </p>
+<p> fax: $user.fax </p>
+<p> $user.website </p>
+<p> Patient Brochures: $user.patient_brochures </p>
+<p> Brochure Holders: $user.brochure_holders </p>
+<p> Patient Cards: $user.patient_cards </p>
+<p> Card Holders: $user.card_holders </p>

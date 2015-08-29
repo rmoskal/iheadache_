@@ -1,0 +1,9 @@
+<p>$user.firstName,</p>
+<p>
+Thank you for registering for iHeadache (www.iHeadache.com) the online headache diary.  We hope that it will be an invaluable tool that helps you and your physician to manage your 
+headaches (and not let your headaches manage you).
+</p>  
+
+<p>Your username is: $user.name</p>
+
+<p>Follow this link to get started:<a href="siteUrl"></a>$siteUrl</p>

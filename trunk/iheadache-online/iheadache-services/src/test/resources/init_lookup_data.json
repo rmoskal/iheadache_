@@ -1,0 +1,13 @@
+[
+{
+   "_id": "pl_head",
+   "lookupType": "PAIN_LOCATION",
+   "description": "head"
+},
+
+{
+   "_id": "pl_foot",
+   "lookupType": "PAIN_LOCATION",
+   "description": "foot"
+}
+]

@@ -1,0 +1,26 @@
+
+body { font-family: Helvetica, Arial, sans-serif; color: #444;}
+header, section, footer, article { display: block;}
+form .options label, .checkboxes label {display: inline;}
+form .options input, .checkboxes input {margin-right:0.8em;}
+form.wide {width: 100%; margin: 0;}
+input[type=text], input[type=password], textarea {width: auto; padding: 0.3em; margin-right: 1em; width: 98%;}
+input[type=submit] {margin-right: 0.3em;}
+textarea { width: 98%; height: 35em;}
+
+.comment header { color: #aaa;}
+#comment_form textarea { width: 98%; height: 10em;}
+
+label {margin: 0 0 0.2em 0; font-weight:bold; display: block;}
+form .buttons { }
+form .section { margin-bottom: 1.2em;}
+
+#blog_hd { border-bottom: 1px solid #ccc; padding-bottom: 0.6em;}
+header h1 { margin-bottom: 0.2em;}
+header a { font-size: 1em; }
+
+article { border-bottom: 1px solid #ccc; padding-bottom: 0.6em; }
+.blog_post header { margin: 1em 0;}
+.blog_post header h2 { margin-bottom: 0.2em;}
+.blog_post header time { font-size: 0.8em; color: #aaa;}
+.blog_post footer { margin-top: 1em;}

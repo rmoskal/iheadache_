@@ -1,0 +1,1160 @@
+[
+ 
+{
+	"_id" : "TEMPLE_LEFT",
+   "lookupType": "PAIN_LOCATION",
+   "description": "Temple (Left)"
+},
+
+{
+
+	"_id" : "HEAD_LEFT",
+   "lookupType": "PAIN_LOCATION",
+   "description": "Head (Left Side)"
+}
+,
+{
+	"_id" : "TEMPLE_RIGHT",
+   "lookupType": "PAIN_LOCATION",
+   "description": "Temple (Right)"
+}
+,
+{
+	"_id" : "HEAD_RIGHT",
+   "lookupType": "PAIN_LOCATION",
+   "description": "Head (Right Side)"
+},
+{
+	"_id" : "CHEEK_LEFT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Cheek (Left)"
+},
+{
+	"_id" : "CHEEK_RIGHT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Cheek (Right)"
+},
+{
+	"_id" : "CHEEKS_BOTH",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Cheeks"
+},
+{
+	"_id" : "TEMPLES_BOTH",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Temples"
+},
+{
+	"_id" : "EYE_LEFT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Eye (Left)"
+},
+{
+	"_id" : "EYE_RIGHT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Eye (Right)"
+},
+{
+	"_id" : "EYES_BOTH",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Eyes"
+},
+{
+	"_id" : "EYES_BETWEEN",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Between Eyes"
+},
+{
+	"_id" : "FOREHEAD_RIGHT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Forehead (Right)"
+},
+{
+	"_id" : "FOREHEAD_LEFT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Forehead (Left)"
+},
+{
+	"_id" : "FOREHEAD_ENTIRE",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Forehead"
+},
+
+{
+	"_id" : "PARIETAL_LEFT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Parietal Area (Left)"
+},
+{
+	"_id" : "PARIETAL_RIGHT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Parietal Aarea (Right)"
+},
+{
+	"_id" : "PARIETAL_BOTH",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Parietal Area"
+},
+{
+	"_id" : "EAR_LEFT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Ear (Left)"
+},
+{
+	"_id" : "EAR_RIGHT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Ear (Right)"
+},
+{
+	"_id" : "EAR_BOTH",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Ears"
+},
+{
+	"_id" : "OCCIPITAL_LEFT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Occipital Area (Left)"
+},
+{
+	"_id" : "OCCIPITAL_RIGHT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Occipital Area (Right)"
+},
+{
+	"_id" : "OCCIPITAL_BOTH",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Occipital Areas"
+},
+{
+	"_id" : "NECK_RIGHT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Neck (Right Side)"
+},
+{
+	"_id" : "NECK_LEFT",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Neck (Left Side)"
+},
+{
+	"_id" : "NECK_BOTH_SIDES",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Neck"
+},
+{
+	"_id" : "HEAD_TOP",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Head (Top)"
+},
+
+{
+	"_id" : "NOSE",
+	"lookupType" : "PAIN_LOCATION",
+	"description" : "Nose"
+},
+
+
+{
+	"_id" : "ACHING",
+   "lookupType": "PAIN_TYPE",
+   "description": "Aching"
+},
+{
+	"_id" : "BURNING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Burning"
+},
+{
+	"_id" : "COLD",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Cold"
+},
+{
+	"_id" : "CRAMPING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Cramping"
+},
+{
+	"_id" : "DULL",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Dull"
+},
+{
+	"_id" : "ELECTRIC",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Electric"
+},
+{
+	"_id" : "EXPLODING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Exploding"
+},
+{
+	"_id" : "FOREIGNBODY",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Foreign Body"
+},
+{
+	"_id" : "HEAVY",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Heavy"
+},
+{
+	"_id" : "HOT",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Hot"
+},
+{
+	"_id" : "IMPLODING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Imploding"
+},
+{
+	"_id" : "ITCHY",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Itchy"
+},
+{
+	"_id" : "PULSATING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Pulsating"
+},
+{
+	"_id" : "SHARP",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Sharp"
+},
+{
+	"_id" : "SHOOTING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Shooting"
+},
+{
+	"_id" : "STINGING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Stinging"
+},
+{
+	"_id" : "THROBBING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Throbbing"
+},
+{
+	"_id" : "TINGLING",
+	"lookupType" : "PAIN_TYPE",
+	"description" : "Tingling"
+},
+
+{
+   "_id": "HAS_AURA",
+   "lookupType": "SYMPTOM",
+   "description": "Preceded By Aura"
+},
+{
+   "_id": "IS_ANILATERAL",
+   "lookupType": "SYMPTOM",
+   "description": "Primarily One Sided"
+},
+{
+   "_id": "IS_MOVEMENT",
+   "lookupType": "SYMPTOM",
+   "description": "Worse With Movement"
+},
+
+{
+   "_id": "IS_THROBBING",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Throbbing Pain"
+},
+
+{
+   "_id": "HAS_NAUSEA",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Nausea"
+},
+{
+   "_id": "HAS_PHOTOPHOBIA",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Sensitivity To Light"
+},
+
+{
+   "_id": "HAS_PHONOBIA",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Sensitivity To Noise"
+},
+
+{
+   "_id": "HAS_OLFACTOPHOBIA",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Sensitivity To Smell"
+},
+
+{
+   "_id": "IS_NECK",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Neck Pain"
+},
+
+{
+   "_id": "IS_SINUS",
+   "lookupType": "SYMPTOM",
+   "description": "Accompanied With Sinus Symptoms"
+},
+
+{
+	"_id": "TRIGGER_005",
+   "lookupType": "TRIGGER",
+   "description": "Air Travel"
+},
+
+{
+	"_id": "TRIGGER_01",
+   "lookupType": "TRIGGER",
+   "description": "Alcohol"
+},
+
+{
+	"_id": "TRIGGER_011",
+   "lookupType": "TRIGGER",
+   "description": "Altitude"
+},
+
+{
+	"_id": "TRIGGER_02",
+   "lookupType": "TRIGGER",
+   "description": "Aspartame"
+},
+
+{
+		"_id": "TRIGGER_03",
+	   "lookupType": "TRIGGER",
+	   "description": "Chocolate"
+},
+
+{
+		"_id": "TRIGGER_04",
+	   "lookupType": "TRIGGER",
+	   "description": "Caffeine Increase"
+},
+
+{
+	    "_id": "TRIGGER_05",
+	   "lookupType": "TRIGGER",
+	   "description": "Caffeine Decrease"
+},
+
+{
+    "_id": "TRIGGER_06",
+   "lookupType": "TRIGGER",
+   "description": "Heat"
+},
+
+{
+    "_id": "TRIGGER_07",
+   "lookupType": "TRIGGER",
+   "description": "Hormones"
+},
+
+{
+    "_id": "TRIGGER_08",
+   "lookupType": "TRIGGER",
+   "description": "Lighting"
+},
+{
+    "_id": "TRIGGER_09",
+   "lookupType": "TRIGGER",
+   "description": "Menstrual Cycle"
+},
+{
+    "_id": "TRIGGER_10",
+   "lookupType": "TRIGGER",
+   "description": "MSG"
+},
+{
+    "_id": "TRIGGER_11",
+   "lookupType": "TRIGGER",
+   "description": "Neck Pain"
+},
+{
+    "_id": "TRIGGER_12",
+   "lookupType": "TRIGGER",
+   "description": "Odors"
+},
+{
+    "_id": "TRIGGER_13",
+   "lookupType": "TRIGGER",
+   "description": "Sexual Activity"
+},
+{
+    "_id": "TRIGGER_14",
+   "lookupType": "TRIGGER",
+   "description": "Sleep Deprivation"
+},
+{
+    "_id": "TRIGGER_15",
+   "lookupType": "TRIGGER",
+   "description": "Too Much Sleep"
+},
+{
+    "_id": "TRIGGER_16",
+   "lookupType": "TRIGGER",
+   "description": "Smoke"
+},
+{
+    "_id": "TRIGGER_17",
+   "lookupType": "TRIGGER",
+   "description": "Stress Increase"
+},
+{
+    "_id": "TRIGGER_18",
+   "lookupType": "TRIGGER",
+   "description": "Stress Release"
+},
+{
+    "_id": "TRIGGER_19",
+   "lookupType": "TRIGGER",
+   "description": "Skipped Meals"
+},
+{
+    "_id": "TRIGGER_20",
+   "lookupType": "TRIGGER",
+   "description": "Weather Front"
+},
+
+{
+	   "_id": "TENSION_HEADACHE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "Tension Headache"
+},
+
+{
+	   "_id": "PROBABLE_MIGRAINE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "Probable Migraine"
+},
+
+{
+	   "_id": "MIGRAINE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "Migraine Headache"
+},
+
+{
+	   "_id": "UNCLASSIFIED_HEADACHE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "Unclassified Headache"
+},
+
+{
+	   "_id": "NO_HEADACHE",
+	   "lookupType": "HEADACHE_TYPE",
+	   "description": "No Headache"
+},
+
+
+{
+	   "_id": "DISABILITY_QUESTION_1",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "Unable to go to school or work?"
+},
+
+{
+	   "_id": "DISABILITY_QUESTION_2",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "At work or at school but productivity was less than 50% of normal?"
+},
+
+{
+	   "_id": "DISABILITY_QUESTION_3",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "Unable to do household work?"
+},
+
+{
+	   "_id": "DISABILITY_QUESTION_4",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "Able to do household work but productivity was reduced by 50%?"
+},
+
+{
+	   "_id": "DISABILITY_QUESTION_5",
+	   "lookupType": "DISABILITY_QUESTION",
+	   "description": "Unable to attend social, leisure, or family activities? "
+},
+
+{
+"_id": "STND_TR_ADVIL",
+"description": "Advil&#174;, Motrin&#174;",
+"genericName": "ibuprofen",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_ALEVE",
+"description": "Aleve&#174;",
+"genericName": "naproxen sodium",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_ALSUMA",
+"description": "Alsuma&#174;",
+"genericName": "sumatriptan",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "6 mg"
+},
+{
+"_id": "STND_TR_AMERGE_1_MG",
+"description": "Amerge&#174;",
+"genericName": "naratriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "1 mg"
+},
+{
+"_id": "STND_TR_AMERGE_2_5_MG",
+"description": "Amerge&#174;",
+"genericName": "naratriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "2.5 mg"
+},
+{
+"_id": "STND_TR_ASPIRIN",
+"description": "Aspirin",
+"genericName": "aspirin",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_AXERT",
+"description": "Axert&#174;",
+"genericName": "almotriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "12.5 mg"
+},
+{
+"_id": "STND_TR_CAMBIA",
+"description": "Cambia&#174;",
+"genericName": "diclofenac potassium",
+"form": "oral powder",
+"migraineTreatment": true,
+"uom": "50 mg"
+},
+{
+"_id": "STND_TR_DHE-45",
+"description": "DHE-45&#174;",
+"genericName": "dihydroergotamine",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "1 mg"
+},
+{
+"_id": "STND_TR_DARVON",
+"description": "Darvon&#174;, Darvocet&#174; and similar",
+"genericName": "proproxyphene compounds",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_ESGIC_PLUS",
+"description": "Esgic&#174; plus, and similar",
+"genericName": "butalbital compounds w/codeine",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_ESGIC",
+"description": "Esgic&#174;, Fiorecet&#174;, and similar",
+"genericName": "butalbital compounds w/o codeine",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_EXCEDRIN",
+"description": "Excedrin&#174; migraine and others",
+"genericName": "aspirin/caffeine/acetaminophen",
+"form": "oral tablet or capsule",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_FROVA",
+"description": "Frova&#174;",
+"genericName": "frovatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "2.5 mg"
+},
+{
+"_id": "STND_TR_GELSTAT",
+"description": "Gelstat Migraine&#174;",
+"genericName": "feverfew, ginger",
+"form": "Oral Tablet",
+"migraineTreatment": true,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_IMITREX_100",
+"description": "Imitrex&#174;",
+"genericName": "sumatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "100 mg"
+},
+{
+"_id": "STND_TR_IMITREX_020",
+"description": "Imitrex&#174; Nasal Spray",
+"genericName": "sumatriptan",
+"form": "nasal spray",
+"migraineTreatment": true,
+"uom": "20 mg"
+},
+{
+"_id": "STND_TR_IMITREX_025",
+"description": "Imitrex&#174;",
+"genericName": "sumatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "25 mg"
+},
+{
+"_id": "STND_TR_IMITREX_004",
+"description": "Imitrex&#174; Injection",
+"genericName": "sumatriptan",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "4 mg"
+},
+{
+"_id": "STND_TR_IMITREX_005",
+"description": "Imitrex&#174; Nasal Spray",
+"genericName": "sumatriptan",
+"form": "nasal spray",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_IMITREX_050",
+"description": "Imitrex&#174;",
+"genericName": "sumatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "50 mg"
+},
+{
+"_id": "STND_TR_IMITREX_006",
+"description": "Imitrex&#174; Injection",
+"genericName": "sumatriptan",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "6 mg"
+},
+{
+"_id": "STND_TR_LEVADEX",
+"description": "Levadex&#174;",
+"genericName": "dihydroergotamine",
+"form": "inhaled",
+"migraineTreatment": true,
+"uom": "1 mg"
+},
+{
+"_id": "STND_TR_MAXALT_010D",
+"description": "Maxalt MLT&#174;",
+"genericName": "rizatriptan",
+"form": "dissolvable oral tablet",
+"migraineTreatment": true,
+"uom": "10 mg"
+},
+{
+"_id": "STND_TR_MAXALT_005D",
+"description": "Maxalt MLT&#174;",
+"genericName": "rizatriptan",
+"form": "dissolvable oral tablet",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_MAXALT_010",
+"description": "Maxalt&#174;",
+"genericName": "rizatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "10 mg"
+},
+{
+"_id": "STND_TR_MAXALT_005",
+"description": "Maxalt&#174;",
+"genericName": "rizatriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_MIDRIN",
+"description": "Midrin&#174;",
+"genericName": "isometheptene mucate, etc.",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "65/100/325 mg"
+},
+{
+"_id": "STND_TR_MIGRALEX",
+"description": "Migralex&#174;",
+"genericName": "aspirin, magnesium oxide",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "100 mg"
+},
+{
+"_id": "STND_TR_MIGRANAL",
+"description": "Migranal&#174; Nasal DHE",
+"genericName": "dihydroergotamine",
+"form": "nasal spray",
+"migraineTreatment": true,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_OPTINOSE",
+"description": "Optinose&#174;",
+"genericName": "sumatriptan",
+"form": "nasal powder",
+"migraineTreatment": true,
+"uom": "10 mg"
+},
+{
+"_id": "STND_TR_PRODRIN",
+"description": "Prodrin&#174;",
+"genericName": "isometheptene mucate, caffeine, acetaminophen",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "130/200/500 mg"
+},
+{
+"_id": "STND_TR_RELPAX_020",
+"description": "Relpax&#174;",
+"genericName": "eletriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "20 mg"
+},
+{
+"_id": "STND_TR_RELPAX_040",
+"description": "Relpax&#174;",
+"genericName": "eletriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "40 mg"
+},
+{
+"_id": "STND_TR_STADOL_001",
+"description": "Stadol&#174;",
+"genericName": "butorphanol",
+"form": "nasal spray",
+"migraineTreatment": false,
+"uom": "1 mg"
+},
+{
+"_id": "STND_TR_STADOL_ANY",
+"description": "Stadol&#174;",
+"genericName": "butorphanol",
+"form": "intravenous",
+"migraineTreatment": false,
+"uom": "any dose"
+},
+{
+"_id": "STND_TR_SUMAVEL",
+"description": "Sumavel&#174;",
+"genericName": "sumatriptan",
+"form": "injection",
+"migraineTreatment": true,
+"uom": "6 mg"
+},
+{
+"_id": "STND_TR_TORADOL_010",
+"description": "Toradol&#174;",
+"genericName": "ketorolac",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "10 mg"
+},
+{
+"_id": "STND_TR_TORADOL_030",
+"description": "Toradol&#174;",
+"genericName": "ketorolac",
+"form": "injection",
+"migraineTreatment": false,
+"uom": "30 mg"
+},
+{
+"_id": "STND_TR_TORADOL_060",
+"description": "Toradol&#174;",
+"genericName": "ketorolac",
+"form": "injection",
+"migraineTreatment": false,
+"uom": "60 mg"
+},
+{
+"_id": "STND_TR_TREXIMET",
+"description": "Treximet&#174;",
+"genericName": "sumatriptan/naproxen ",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "85/500  mg"
+},
+{
+"_id": "STND_TR_TYLENOL_CODEINE_ANY",
+"description": "Tylenol#3&#174;",
+"genericName": "acetaminophen w/ codeine",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose "
+},
+{
+"_id": "STND_TR_TYLENOL_ANY",
+"description": "Tylenol&#174;",
+"genericName": "acetaminophen",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose "
+},
+{
+"_id": "STND_TR_VICODIN_ANY",
+"description": "Vicodin&#174;, Norco&#174;, and similar",
+"genericName": "hydrocodone/acetaminophen",
+"form": "oral tablet",
+"migraineTreatment": false,
+"uom": "any dose "
+},
+{
+"_id": "STND_TR_ZELRIX",
+"description": "Zelrix&#174;",
+"genericName": "sumatriptan",
+"form": "transdermal patch",
+"migraineTreatment": true,
+"uom": "6 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_0025D",
+"description": "Zomig ZMT&#174;",
+"genericName": "zolmitriptan",
+"form": "dissolvable oral tablet",
+"migraineTreatment": true,
+"uom": "2.5 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_005D",
+"description": "Zomig ZMT&#174;",
+"genericName": "zolmitriptan",
+"form": "dissolvable oral tablet",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_0025",
+"description": "Zomig&#174;",
+"genericName": "zolmitriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "2.5 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_OO5",
+"description": "Zomig&#174;",
+"genericName": "zolmitriptan",
+"form": "oral tablet",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+{
+"_id": "STND_TR_ZOMIG_005N",
+"description": "Zomig&#174; Nasal Spray",
+"genericName": "zolmitriptan",
+"form": "nasal spray",
+"migraineTreatment": true,
+"uom": "5 mg"
+},
+
+{
+	"_id" : "PT_ANAPROX",
+	"ptname" : "Anaprox&#174;",
+	"genericName" : "naproxen sodium"
+},
+{
+	"_id" : "PT_ATACAND",
+	"ptname" : "Atacand&#174;",
+	"genericName" : "candesartan"
+},
+{
+	"_id" : "PT_BLOCADREN",
+	"ptname" : "Blocadren&#174;",
+	"genericName" : "timolol"
+},
+{
+	"_id" : "PT_BOTOX",
+	"ptname" : "Botox&#174;",
+	"genericName" : "onabotulinumtoxinA"
+},
+{
+	"_id" : "PT_BUSPAR",
+	"ptname" : "Buspar&#174;",
+	"genericName" : "buspirone"
+},
+{
+	"_id" : "PT_BUTTERBUR",
+	"ptname" : "Butterbur&#174;",
+	"genericName" : "petasites"
+},
+{
+	"_id" : "PT_CALAN",
+	"ptname" : "Calan&#174;",
+	"genericName" : "verapamil"
+},
+{
+	"_id" : "PT_CELEBREX",
+	"ptname" : "Celebrex&#174;",
+	"genericName" : "celecoxib"
+},
+{
+	"_id" : "PT_COQ10",
+	"ptname" : "CoQ10",
+	"genericName" : "coq10"
+},
+{
+	"_id" : "PT_CORGARD",
+	"ptname" : "Corgard&#174;",
+	"genericName" : "nadolol"
+},
+{
+	"_id" : "PT_CYMBALTA",
+	"ptname" : "Cymbalta&#174;",
+	"genericName" : "duloxetine"
+},
+{
+	"_id" : "PT_DEPAKOTE",
+	"ptname" : "Depakote&#174;",
+	"genericName" : "divalproex sodium"
+},
+{
+	"_id" : "PT_DEPAKOTEER",
+	"ptname" : "Depakote ER&#174;",
+	"genericName" : "divalproex sodium er"
+},
+{
+	"_id" : "PT_DIAMOX",
+	"ptname" : "Diamox&#174;",
+	"genericName" : "acetazolamide"
+},
+{
+	"_id" : "PT_DYSPORT",
+	"ptname" : "Dysport&#174;",
+	"genericName" : "abobotulinumtoxinA"
+},
+{
+	"_id" : "PT_EFFEXOR",
+	"ptname" : "Effexor&#174;",
+	"genericName" : "venlafaxine"
+},
+{
+	"_id" : "PT_EFFEXORXR",
+	"ptname" : "Effexor XR&#174;",
+	"genericName" : "venlafaxine xr"
+},
+{
+	"_id" : "PT_ELAVIL",
+	"ptname" : "Elavil&#174;",
+	"genericName" : "amitriptyline"
+},
+{
+	"_id" : "PT_GABITRIL",
+	"ptname" : "Gabitril&#174;",
+	"genericName" : "tiagabine"
+},
+{
+	"_id" : "PT_GEODON",
+	"ptname" : "Geodon&#174;",
+	"genericName" : "ziprasidone"
+},
+{
+	"_id" : "PT_INDERAL",
+	"ptname" : "Inderal&#174;",
+	"genericName" : "propranolol"
+},
+{
+	"_id" : "PT_INDERALLA",
+	"ptname" : "Inderal LA&#174;",
+	"genericName" : "propranolol er"
+},
+{
+	"_id" : "PT_KEPPRA",
+	"ptname" : "Keppra&#174;",
+	"genericName" : "levetiracetam"
+},
+{
+	"_id" : "PT_KLONOPIN",
+	"ptname" : "Klonopin&#174;",
+	"genericName" : "clonazepman"
+},
+{
+	"_id" : "PT_LAMICTAL",
+	"ptname" : "Lamictal&#174;",
+	"genericName" : "lamotrigine"
+},
+{
+	"_id" : "PT_LYRICA",
+	"ptname" : "Lyrica&#174;",
+	"genericName" : "pregabalin"
+},
+{
+	"_id" : "PT_MAGNESIUMOXIDE",
+	"ptname" : "Magnesium Oxide",
+	"genericName" : "magnesium oxide"
+},
+{
+	"_id" : "PT_MELATONIN",
+	"ptname" : "Melatonin",
+	"genericName" : "melatonin"
+},
+{
+	"_id" : "PT_METHERGINE",
+	"ptname" : "Methergine&#174;",
+	"genericName" : "methylergonovine maleate"
+},
+{
+	"_id" : "PT_Motrin",
+	"ptname" : "Motrin&#174;",
+	"genericName" : "ibuprofen"
+},
+{
+	"_id" : "PT_MYOBLOC",
+	"ptname" : "Myobloc&#174;",
+	"genericName" : "rimabotulinumtoxinB"
+},
+{
+	"_id" : "PT_NAMENDA",
+	"ptname" : "Namenda&#174;",
+	"genericName" : "memantine"
+},
+{
+	"_id" : "PT_NAPROSYN",
+	"ptname" : "Naprosyn&#174;",
+	"genericName" : "naproxen"
+},
+{
+	"_id" : "PT_NARDIL",
+	"ptname" : "Nardil&#174;",
+	"genericName" : "phenelzine"
+},
+{
+	"_id" : "PT_NEURONTIN",
+	"ptname" : "Neurontin&#174;",
+	"genericName" : "gabapentin"
+},
+{
+	"_id" : "PT_NUVIGIL",
+	"ptname" : "Nuvigil&#174;",
+	"genericName" : "armodafinil"
+},
+{
+	"_id" : "PT_ORUDIS",
+	"ptname" : "Orudis&#174;",
+	"genericName" : "ketoprofen"
+},
+{
+	"_id" : "PT_PAMATE",
+	"ptname" : "Pamate&#174;",
+	"genericName" : "tranylcypromine"
+},
+{
+	"_id" : "PT_PAMELOR",
+	"ptname" : "Pamelor&#174;",
+	"genericName" : "nortriptyline"
+},
+{
+	"_id" : "PT_PRISTIQ",
+	"ptname" : "Pristiq&#174;",
+	"genericName" : "desvenlafaxine"
+},
+{
+	"_id" : "PT_PROVIGIL",
+	"ptname" : "Provigil&#174;",
+	"genericName" : "modafinil"
+},
+{
+	"_id" : "PT_PROZAC",
+	"ptname" : "Prozac&#174;",
+	"genericName" : "fluoxetine"
+},
+{
+	"_id" : "PT_RIBOFLAVIN",
+	"ptname" : "Riboflavin",
+	"genericName" : "riboflavin"
+},
+{
+	"_id" : "PT_SEROQUEL",
+	"ptname" : "Seroquel&#174;",
+	"genericName" : "quetiapine"
+},
+{
+	"_id" : "PT_SIBELIUM",
+	"ptname" : "Sibelium&#174;",
+	"genericName" : "flunarazine"
+},
+{
+	"_id" : "PT_TENORMIN",
+	"ptname" : "Tenormin&#174;",
+	"genericName" : "atenolol"
+},
+{
+	"_id" : "PT_TESTOSTERONE",
+	"ptname" : "Testosterone",
+	"genericName" : "testosterone"
+},
+{
+	"_id" : "PT_TOFRANIL",
+	"ptname" : "Tofranil&#174;",
+	"genericName" : "imipramine"
+},
+{
+	"_id" : "PT_TOPAMAX",
+	"ptname" : "Topamax&#174;",
+	"genericName" : "topiramate"
+},
+{
+	"_id" : "PT_TOPROL",
+	"ptname" : "Toprol&#174;",
+	"genericName" : "metoprolol"
+},
+{
+	"_id" : "PT_TRILEPTAL",
+	"ptname" : "Trileptal&#174;",
+	"genericName" : "oxcarbazepine"
+},
+{
+	"_id" : "PT_VIMPAT",
+	"ptname" : "Vimpat&#174;",
+	"genericName" : "lacosamide"
+},
+{
+	"_id" : "PT_VIVACTIL",
+	"ptname" : "Vivactil&#174;",
+	"genericName" : "protriptyline"
+},
+{
+	"_id" : "PT_ZONEGRAN",
+	"ptname" : "Zonegran&#174;",
+	"genericName" : "zonisamide"
+} 
+
+
+
+
+]

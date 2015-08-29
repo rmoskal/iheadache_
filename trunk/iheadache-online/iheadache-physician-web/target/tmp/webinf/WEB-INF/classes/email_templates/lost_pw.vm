@@ -1,0 +1,6 @@
+<p>$firstname,</p>
+<p></p>
+<p>You requested to change your password to iHeadache. <a href="${siteUrl}changepw?hash=$fancyUrl">Click Here</a> to reset your password. 
+This link expires in 24 hours.  Once you set your new password, you will be able to log in and continue to use iHeadache.</p>
+<p>You can also copy and paste the link below into your internet browser to reset your password:</p>
+<p>${siteUrl}changepw?hash=$fancyUrl</p>

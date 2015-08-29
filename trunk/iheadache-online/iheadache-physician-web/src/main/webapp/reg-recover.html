@@ -1,0 +1,127 @@
+<%@ page import="net.tanesha.recaptcha.ReCaptcha" %>
+<%@ page import="net.tanesha.recaptcha.ReCaptchaFactory" %> 
+<html>
+<head>
+<link rel="stylesheet" href="resources/css/saas-common.css" />
+  <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script src="resources/js/common.js"></script>
+  <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="//code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<title>Recover your password</title>
+  <script type="text/javascript" >
+  $(document).ready(function(){
+	 setupValidation();
+    $("#resetForm").validate({
+    	rules: {
+            recaptcha_response_field:{required:true}
+    	},
+    	
+    	submitHandler: function(form) {
+    		
+    		
+    		$.post("recoverpw", 
+    				$("#resetForm").serialize(),
+    				function(data) {
+    				data = $.parseJSON(data);
+    				$("span.email").html(data[1]);
+    			 	$("#"+data[0]).dialog('open');
+    			 }); 
+    		 }
+    });
+    $( "#UNKNOWN_USER" ).dialog({ autoOpen: false, buttons: [{text:"Try Again", click: function() {location.reload(true);}}  ,
+    	{text:"Ok", click: function() {  window.location = "/reg-pt.html"; } }  ]});
+    $( "#OK" ).dialog({ autoOpen: false, buttons: [{ text: "Ok", click: function() { window.location = "/index.html";} } ]});
+    $( "#CAPTCHA" ).dialog({ autoOpen: false, buttons: [{ text:"Ok", click: function() { $( this ).dialog( "close" ); } }] });
+  });
+  </script>
+</head>
+<body>
+<div class='solo solo-forms'>
+<img src="resources/images/iheadache-logo-md.png" alt="iHeadache Online" width="385" height="60" />
+<!--
+	<div class="topLinks">
+		<div class="menu-top-links-container">
+			<ul id="menu-top-links" class="menu sf-menu sf-js-enabled sf-shadow">
+				<li class="menu-item"><a href="#" class="sf-with-ul">Company<span class="sf-sub-indicator"> >></span></a>
+					<ul style="display: none; visibility: hidden; ">
+								  <li><a href="#">Team</a></li>
+						<li><a href="#">Our Foundation</a></li>
+						<li><a href="#">Funding</a></li>
+						<li><a href="#abb">Newsroom</a></li>
+						<li><a href="#abc">Contact Us</a></li>
+					</ul>
+				 </li>
+				<li class="menu-item"><a href="#" class="sf-with-ul">Support<span class="sf-sub-indicator"> >></span></a>
+							<ul style="display: none; visibility: hidden; ">
+								<li><a href="#">Users Manuals</a></li>
+								  <li><a href="#">Quick Start Guides</a></li>
+								  <li><a href="#">How To Videos</a></li>
+								  <li><a href="#">FAQs</a></li>
+								  <li><a href="#">Contact Support</a></li>
+							 </ul>
+						</li>
+				<li class="menu-item"><a href="#" class="sf-with-ul">Mobile Apps<span class="sf-sub-indicator"> >></span></a>
+							<ul style="display: none; visibility: hidden; ">
+								<li><a href="#">iHeadache for Apple iOS</a></li>
+								  <li><a href="#">iHeadache for BlackBerry</a></li>
+							</ul>
+						</li>
+						<li class="menu-item"><a href="#">For Physicians</a></li>
+				<li class="menu-item"><a href="#">Login</a></li>
+						
+			</ul>
+		</div>
+	</div
+-->
+<div id="UNKNOWN_USER" title="Oops!">
+    <p>We did not find <span class="email"></span> in our system.  If you believe you entered it correctly then please click "Try Again"" otherwise click "OK" to register as 
+    a new user.</p>
+</div>
+
+<div id="OK" title="Success!">
+    <p>
+    An email has been sent to <span class="email"></span> .  Click the link in the email to create a new password. This link expires in 24 hours.  
+<br/>You may need to add Support@iHeadache.com to your white list.      
+    </p>
+</div>
+
+<div id="CAPTCHA" title="Oops!">
+    <p>You didn't fill out the captcha correctly.  Try again or select another.</p>
+</div>
+<div class="entry">
+      <form id="resetForm" method="post" action="">
+        <h1 class='txt-c'>Recover your password</h1>
+        <p class='txt-c'>Enter your email address and we'll send you a link where you can reset your password</a></p>
+        <table border="0" align="center">
+          <tbody>
+          <tr>
+            <td class="right">Email:</td>
+            <td><input name="email" type="text" id="email" class="required email"></td>
+          </tr>
+           <tr>
+            <td colspan="2" class='txt-c'><div align="center">Input text from the image below.</div></td>
+          </tr>
+          <tr>
+            <td colspan="2"  class='txt-c' align="center">
+                    <%
+          ReCaptcha c = ReCaptchaFactory.newSecureReCaptcha("6LdG3s0SAAAAAH03AWpzg2DFi1MCuCqyTDmGblHp", "6LdG3s0SAAAAABScbTecIUYZaOAWu8i6ooa4WMZp", false);
+          out.print(c.createRecaptchaHtml(null, "clean",0));
+        %> 
+            
+            </td>
+          </tr>
+          <tr>
+            <td colspan='2' class='txt-c'><br/><br/><input type="submit" name="Submit" id="Submit" value="Submit"></td>
+          </tr>
+
+        </tbody></table>
+         </form>
+    </div> <!-- entry -->
+
+
+
+
+</div> <!-- solo-forms -->
+</body>
+</html>

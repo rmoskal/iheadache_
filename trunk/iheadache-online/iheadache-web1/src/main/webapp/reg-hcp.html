@@ -1,0 +1,553 @@
+<%@ page import="net.tanesha.recaptcha.ReCaptcha" %>
+<%@ page import="net.tanesha.recaptcha.ReCaptchaFactory" %> 
+<html>
+<head>
+<link rel="stylesheet" href="resources/css/saas-common.css" />
+  <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script src="resources/js/common.js"></script>
+  <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="//code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+  <script>
+  $(document).ready(function(){
+	 setupValidation();
+    $("#registerForm").validate({
+    	rules: {
+    		postalcode: {postalcode: true},
+    		phoneUS: {phoneUS: true},
+    		fax: {fax: true},
+    		website: {website: true},
+    		birthdate: {birthdate: true},
+    		password: {password:true},
+    		emailConfirm: {equalTo: '#email'},
+    		passwordConfirm: {equalTo: '#password'},
+    		terms:{required:true},
+            recaptcha_response_field:{required:true}
+    	},
+    	
+    	submitHandler: function(form) {
+    		$.post("hcp.signup", $("#registerForm").serialize(),
+    				function(data) {
+    			console.log(data);
+			   	$("#"+data).dialog('open');
+    			 }		
+    		);
+    	}
+    });
+    
+    $(document).on('change', '#degree', function(){
+    	
+    	if($(this).val() == 'Other'){
+    		$('#other_degree').removeAttr('disabled');
+    	}
+    	else{
+    		$('#other_degree').attr('disabled', '""');
+    	}
+    });
+    
+    $(document).on('change', '#specialty', function(){
+    	
+    	if($(this).val() == 'Other'){
+    		$('#other_specialty').removeAttr('disabled');
+    	}
+    	else{
+    		$('#other_specialty').attr('disabled', 'disabled');
+    	}
+    });
+    
+    $( "#DUPLICATE" ).dialog({ autoOpen: false, buttons: [{ text: "Ok", click: function() { $( this ).dialog( "close" ); }} ]  });
+    $( "#OK" ).dialog({ autoOpen: false, buttons: [{ text:"Ok", click: function() { window.location = "/reg-hcp-success.html";}}  ]});
+    $( "#CAPTCHA" ).dialog({ autoOpen: false, buttons: [{ text:"Ok", click: function() { $( this ).dialog( "close" ); } }]});
+  });
+  </script>
+<title>Register as a Healthcare Professional </title>
+</head>
+<body>
+<div class='solo solo-forms'>
+<img src="resources/images/iheadache-logo-md.png" alt="iHeadache Online" width="385" height="60" />
+<!--
+	<div class="topLinks">
+		<div class="menu-top-links-container">
+			<ul id="menu-top-links" class="menu sf-menu sf-js-enabled sf-shadow">
+				<li class="menu-item"><a href="#" class="sf-with-ul">Company<span class="sf-sub-indicator"> >></span></a>
+					<ul style="display: none; visibility: hidden; ">
+								  <li><a href="#">Team</a></li>
+						<li><a href="#">Our Foundation</a></li>
+						<li><a href="#">Funding</a></li>
+						<li><a href="#abb">Newsroom</a></li>
+						<li><a href="#abc">Contact Us</a></li>
+					</ul>
+				 </li>
+				<li class="menu-item"><a href="#" class="sf-with-ul">Support<span class="sf-sub-indicator"> >></span></a>
+							<ul style="display: none; visibility: hidden; ">
+								<li><a href="#">Users Manuals</a></li>
+								  <li><a href="#">Quick Start Guides</a></li>
+								  <li><a href="#">How To Videos</a></li>
+								  <li><a href="#">FAQs</a></li>
+								  <li><a href="#">Contact Support</a></li>
+							 </ul>
+						</li>
+				<li class="menu-item"><a href="#" class="sf-with-ul">Mobile Apps<span class="sf-sub-indicator"> >></span></a>
+							<ul style="display: none; visibility: hidden; ">
+								<li><a href="#">iHeadache for Apple iOS</a></li>
+								  <li><a href="#">iHeadache for BlackBerry</a></li>
+							</ul>
+						</li>
+						<li class="menu-item"><a href="#">For Physicians</a></li>
+				<li class="menu-item"><a href="#">Login</a></li>
+						
+			</ul>
+		</div>
+	</div
+-->
+<div id="DUPLICATE" title="Oops!">
+    <p>Sorry, a user with this email address is already registered.</p>
+</div>
+
+<div id="OK" title="Welcome!">
+    <p>The registration of Health Care Professionals requires verification before providing access to iHeadache MD, this may take up to 2 days.  We appreciate your patience during this process. </p>
+</div>
+
+<div id="CAPTCHA" title="Oops!">
+    <p>You didn't fill out the captcha correctly.  Try again or select another.</p>
+</div>
+
+    <div class="entry">
+      <form id="registerForm" method="post" action="">
+        <h1 class='txt-c'>Register as a Healthcare Professional</h1>
+        <p class='txt-c'>Are you a headache sufferer and want to use iHeadache to track your headaches? 
+			<a href='https://app.iheadache.com/reg-pt.html'>Click Here</a> to register for iHeadache Online.</p>
+  		<br/>
+  		<p class='txt-c'>At this time iHeadache Online&#8482; and iHeadache MD&#8482; are only available to patients and healthcare professionals 
+  		who reside in the United States. If you live outside the United States and would like us to make iHeadache Online and iHeadache MD 
+  		available to your country then please <a href='http://www.iheadache.com/form-out-of-us.html'>Click Here</a> and let us know.</p>
+        <table border="0" align="center">
+          <tbody><tr>
+            <td colspan='2' align="left"><h2>Contact Information:</h2></td>
+          </tr>
+          <tr>
+            <td align="right"  class="right error-label">
+              First Name: *
+           </td>
+            <td width='400' ><input name="firstname" type="text" id="firstname" class="required"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">
+              Last Name: *
+            </td>
+            <td ><input name="lname" type="text" id="lname" class="required"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Suffix: *</td>
+            <td ><input name="suffix" type="text" id="suffix" size="15" class="required"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Practice Name/Institution: *</td>
+            <td ><input name="pname" type="text" id="pname" size="30" class="required"></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="right">Address 1: *</div></td>
+            <td ><input name="address" type="text" id="address" size="30" class="required"></td>
+          </tr>
+          <tr>
+            <td>
+              <div align="right" class="right">Address 2:</div>
+           </td>
+            <td ><input name="address2" type="text" id="address2" size="30" ></td>
+          </tr>
+          <tr>
+            <td>
+              <div align="right" class="right">City: *</div>
+            </td>
+            <td ><input name="city" type="text" id="city" size="30" class="required"></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="right">Country: *</div></td>
+            <td ><input name="country" type="text" id="country" size="30" class="required"></td>
+          </tr>
+          <tr>
+            <td>
+              <div align="right" class="right">State: *</div>
+            </td>
+            <td >
+					<select name="state" class="required" style="width:188px">
+						<option value=""></option>
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY">Wyoming</option>
+						</select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div align="right" class="right">Zip/Postal Code: *</div>
+            </td>
+            <td ><input name="zip" type="text" id="zip" size="15" class="required postalcode"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Phone: *</td>
+            <td ><input name="phone" type="text" id="phone" size="15" class="required phoneUS"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Fax: *</td>
+            <td ><input name="fax" type="text" id="fax" size="15" class="required phoneUS"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Website: *</td>
+            <td ><input name="website" type="text" id="website" size="30" class="required website"></td>
+          </tr>
+          <tr>
+            <td colspan='2' ><hr></td>
+          </tr>
+          <tr>
+            <td colspan='2'  align="left"><h2>Account Information:</h2></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Email: *</td>
+            <td ><input name="email" type="text" id="email" class="required email" width="200px"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Verify Email: *</td>
+            <td ><input name="emailConfirm" type="text" id="emailConfirm" class="required email"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Password: *</td>
+            <td ><input name="password" type="password" id="password" class="required"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Verify Password: *</td>
+            <td ><input name="passwordConfirm" type="password" id="passwordConfirm" class="required"></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td ><span class="comment-content">Note: Passwords must contain six characters and be a combination of letters and numbers.</span></td>
+          </tr>
+          <tr>
+            <td colspan='2' ><hr></td>
+          </tr>
+          <tr>
+            <td colspan='2' ><h2>Other Information:</h2></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Birth Date: *</td>
+            <td ><input name="bdate" type="text" id="bdate" value="MM/DD/YYYY" size="15" class="required birthdate">
+              (used to verify license) MM/DD/YYYY</td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Gender: *</td>
+            <td ><label for="gender"></label>
+              <select name="gender" size="1" id="gender" class="required">
+                <option value="" selected="">Please Select</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Degree: *</td>
+            <td ><select name="degree" size="1" id="degree" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="MD">MD</option>
+              <option value="DO">DO</option>
+              <option value="DMD">DMD</option>
+              <option value="DDS">DDS</option>
+              <option value="PHarmD">PHarmD</option>
+              <option value="PhD">PhD</option>
+              <option value="NP">NP</option>
+              <option value="PA">PA</option>
+              <option value="RN">RN</option>
+              <option value="Other">Other</option>
+            </select>
+            <input name="other_degree" type="text" disabled="" id="other_degree" value="enter other" size="15"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">Specialty: *</td>
+            <td ><select name="specialty" size="1" id="specialty" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="Anesthesiology">Anesthesiology</option>
+              <option value="Dentistry/TMJ/Oral Surgery">Dentistry/TMJ/Oral Surgery</option>
+              <option value="Family Practice">Family Practice</option>
+              <option value="Headache Medicine">Headache Medicine</option>
+              <option value="Internal Medicine">Internal Medicine</option>
+              <option value="Neurology">Neurology</option>
+              <option value="Pain Management">Pain Management</option>
+              <option value="Pediatrics">Pediatrics</option>
+              <option value="Other">Other</option>
+            </select>
+            <input name="other_specialty" type="text" disabled="" id="other_specialty" value="enter other" size="15"></td>
+          </tr>
+          <tr>
+            <td align="right" class="right">UCNS Certified in Headache? *</td>
+            <td ><select name="ucns_certified_in_Headache" size="1" id="ucns_certified_in_Headache" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Do you want to be included in our "Physician Finder" which is available to our users? *</td>
+            <td width="315" align="left"><select name="include_in_physician_finder" size="1" id="include_in_physician_finder" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="True">Yes</option>
+              <option value="False">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td class="right"><a href="http://www.iheadache.com/TandC-Privacy-.html" target="_blank">Terms of Use and Privacy Policy</a>: *</td>
+            <td align="right"><input name="terms" type="checkbox" id="terms" class="required"></td>
+          </tr>
+          <tr>
+            <td colspan='2'><hr></td>
+          </tr>
+          <tr>
+            <td colspan='2' align="left"><h2>Are you  a member of any of the following:</h2></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">American Academy of Neurology: *</td>
+            <td ><label for="AAN Member"></label>
+              <select name="american_academy_of_neurology" size="1" id="american_academy_of_neurology" class="required">
+                <option value="" selected="">Please Select</option>
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">American Headache Society: *</td>
+            <td ><select name="american_headache_society" size="1" id="american_headache_society" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Headache Cooperative of New England: *</td>
+            <td ><select name="headache_cooperative_of_new_england" size="1" id="headache_cooperative_of_new_england" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Headache Cooperative of the Pacific: *</td>
+            <td ><select name="headache_cooperative_of_the_pacific" size="1" id="headache_cooperative_of_the_pacific" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">National Headache Foundation: *</td>
+            <td ><select name="national_headache_foundation" size="1" id="national_headache_foundation" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Southern Headache Society: *</td>
+            <td ><select name="southern_headache_society" size="1" id="southern_headache_society" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td colspan='2'><hr></td>
+          </tr>
+          <tr>
+            <td colspan='2'  align="left"><h2>Meeting Attendance:</h2></td>
+          </tr>
+          <tr>
+            <td colspan='2' class='form-description'>Please enter the number  of meetings attended in the last five (5) years.</td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">American Academy of Neurology: *</td>
+            <td ><label for="AAN Meetings"></label>
+              <select name="american_academy_of_neurology_meeting" size="1" id="american_academy_of_neurology_meeting" class="required">
+                <option value="" selected="">Please Select</option>
+                <option value="None">None</option>
+                <option value="1 meeting">1 meeting</option>
+                <option value="2-4 meetings">2-4 meetings</option>
+                <option value="more than 5 meetings">more than 5 meetings</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">American Headache Society: *</td>
+            <td ><select name="american_headache_society_meeting" size="1" id="american_headache_society_meeting" class="required">
+              <option value="" selected="">Please Select</option>
+               <option value="None">None</option>
+              <option value="1 meeting">1 meeting</option>
+              <option value="2-4 meetings">2-4 meetings</option>
+              <option value="more than 5 meetings">more than 5 meetings</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Headache Cooperative of New England: *</td>
+            <td ><select name="headache_cooperative_of_new_england_meeting" size="1" id="headache_cooperative_of_new_england_meeting" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="None">None</option>
+              <option value="1 meeting">1 meeting</option>
+              <option value="2-4 meetings">2-4 meetings</option>
+              <option value="more than 5 meetings">more than 5 meetings</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Headache Cooperative of the Pacific: *</td>
+            <td ><select name="headache_cooperative_of_the_pacific_meeting" size="1" id="headache_cooperative_of_the_pacific_meeting" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="None">None</option>
+              <option value="1 meeting">1 meeting</option>
+              <option value="2-4 meetings">2-4 meetings</option>
+              <option value="more than 5 meetings">more than 5 meetings</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">National Headache Foundation: *</td>
+            <td ><select name="national_headache_foundation_meeting" size="1" id="national_headache_foundation_meeting" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="None">None</option>
+              <option value="1 meeting">1 meeting</option>
+              <option value="2-4 meetings">2-4 meetings</option>
+              <option value="more than 5 meetings">more than 5 meetings</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Southern Headache Society: *</td>
+            <td ><select name="southern_headache_society_meeting" size="1" id="southern_headache_society_meeting" class="required">
+              <option value="" selected="">Please Select</option>
+              <option value="None">None</option>
+              <option value="1 meeting">1 meeting</option>
+              <option value="2-4 meetings">2-4 meetings</option>
+              <option value="more than 5 meetings">more than 5 meetings</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td colspan='2'><hr></td>
+          </tr>
+          <tr>
+            <td colspan='2'  align="left"><h2>Request Patient Education Materials:</h2></td>
+          </tr>
+          <tr>
+            <td colspan='2' class='txt-c'>The brochures are approximately 4" x 8.5" and give patients detailed information about iHeadache and instructions to sign up. They are great to have in the waiting room or by check-in or check-out. Click here to see an example. </td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Patient Brochures: </td>
+            <td ><select name="patient_brochures" size="1" id="patient_brochures">
+              <option value="" selected="">Please Select</option>
+              <option value="None">None</option>
+              <option value="50 brochures">50 brochures</option>
+              <option value="100 brochures">100 brochures</option>
+              <option value="150 brochures">150 brochures</option>
+              <option value="200 brochures">200 brochures</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Brochure Holders: </td>
+            <td ><select name="brochure_holders" size="1" id="brochure_holders">
+              <option value="" selected="">Please Select</option>
+              <option value="None">None</option>
+              <option value="1 holder">1 holder</option>
+              <option value="2 holders">2 holders</option>
+              <option value="3 holders">3 holders</option>
+              <option value="4 holders">4 holders</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td colspan='2' class='txt-c'>They are the size of business cards and give patients the website and limited information about iHeadache. Small enough for your exam rooms and not too intrusive. Click here to see an example.</td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Patient Cards: </td>
+            <td ><select name="patient_cards" size="1" id="patient_cards">
+              <option value="" selected="">Please Select</option>
+              <option value="None">None</option>
+              <option value="50 cards">50 cards</option>
+              <option value="100 cards">100 cards</option>
+              <option value="150 cards">150 cards</option>
+              <option value="200 cards">200 cards</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td  align="right" class="right">Card Holder(s): </td>
+            <td ><select name="card_holders" size="1" id="card_holders">
+              <option value="" selected="">Please Select</option>
+              <option value="None">None</option>
+              <option value="1 holder">1 holder</option>
+              <option value="2 holders">2 holders</option>
+              <option value="3 holders">3 holders</option>
+              <option value="4 holders">4 holders</option>
+              <option value="5 holders">5 holders</option>
+              <option value="6 holders">6 holders</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td colspan='2' ><hr></td>
+          </tr>
+          <tr>
+            <td colspan="2" class='txt-c'><div align="center">Input text from the image below.</div></td>
+          </tr>
+          <tr>
+            <td colspan="2"  class='txt-c' align="center">
+                    <%
+          ReCaptcha c = ReCaptchaFactory.newSecureReCaptcha("6LdG3s0SAAAAAH03AWpzg2DFi1MCuCqyTDmGblHp", "6LdG3s0SAAAAABScbTecIUYZaOAWu8i6ooa4WMZp", false); 
+          out.print(c.createRecaptchaHtml(null, "clean",0));
+        %> 
+            
+            </td>
+          </tr>
+          <tr>
+            <td colspan='2' class='txt-c'><br/><br/><input type="submit" name="Submit" id="Submit" value="Submit"></td>
+          </tr>
+        </tbody></table>
+      </form>
+    </div>
+
+</div> <!-- solo-forms -->
+</body>
+</html>

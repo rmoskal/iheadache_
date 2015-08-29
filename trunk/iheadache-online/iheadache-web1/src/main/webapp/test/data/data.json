@@ -1,0 +1,115 @@
+﻿{
+    "organizations": [
+		{ "id": 10, "name": "Organization 1" },
+		{ "id": 20, "name": "Organization 2" },
+		{ "id": 30, "name": "Organization 3" }
+	],
+    "users": [
+		{ "id": 1, "name": "Hajdar Dushi", "organization_id": 10 },
+		{ "id": 2, "name": "Halil Budakova", "organization_id": 20 },
+        { "id": 3, "name": "Chuck Norris", "organization_id": 30 }
+    ],
+    "headaches": [
+	    {
+	        "id": 1,
+            "user_id" : 2,
+		    "start": "06/20/2011",
+		    "end": "06/24/2011",
+		    "fromYesterday": false,
+		    "noHeadache": false,
+		    "atBedtime": false,
+		    "complete": false,
+		    "type": {
+			    "id": "1",
+			    "description": "Headache Type 1"
+		    },
+		    "pains": [
+			    {
+				    "level": 1,
+				    "date": "06/20/2011",
+				    "location": {
+					    "id": "1",
+					    "description": "Pain Location 1"
+				    },
+				    "type": {
+					    "id": "1",
+					    "description": "Pain Type 1"
+				    }
+			    },
+			    {
+				    "level": 2,
+				    "date": "06/20/2011",
+				    "location": {
+					    "id": "1",
+					    "description": "Pain Location 2"
+				    },
+				    "type": {
+					    "id": "1",
+					    "description": "Pain Type 2"
+				    }
+			    }
+		    ],
+		    "symptoms": [
+			    {
+				    "id": "1",
+				    "description": "Symptom 1"
+			    },
+			    {
+				    "id": "2",
+				    "description": "Symptom 2"
+			    }
+		    ],
+		    "disability": {
+			    "completelydisabled": false,
+			    "midasscore": 100,
+			    "partialyDisabled": false
+		    },
+		    "treatments": [
+			    {
+				    "id": "1",
+				    "description": "Treatment 1",
+				    "date": "06/22/2011"
+			    },
+			    {
+				    "id": "2",
+				    "description": "Treatment 2",
+				    "date": "06/23/2011"
+			    }
+		    ],
+		    "triggers": [
+			    {
+				    "id": "1",
+				    "description": "Trigger 1"
+			    },
+			    {
+				    "id": "2",
+				    "description": "Trigger 2"
+			    },
+			    {
+				    "id": "2",
+				    "description": "Trigger 2"
+			    }
+		    ]
+	    }
+    ],
+    "headacheSymptoms": [
+		{ "id": "1", "description": "Headache Symptom 1" },
+        { "id": "2", "description": "Headache Symptom 2" },
+        { "id": "3", "description": "Headache Symptom 3" }
+	],
+    "headacheTypes": [
+        { "id": "1", "description": "Headache Type 1" },
+        { "id": "2", "description": "Headache Type 2" },
+        { "id": "3", "description": "Headache Type 3" }
+    ],
+    "painLocations": [
+        { "id": "1", "description": "Pain Location 1" },
+        { "id": "2", "description": "Pain Location 2" },
+        { "id": "3", "description": "Pain Location 3" }
+    ],
+    "headacheTriggers": [
+        { "id": "1", "description": "Trigger 1" },
+        { "id": "2", "description": "Trigger 2" },
+        { "id": "3", "description": "Trigger 3" }
+    ]
+}
